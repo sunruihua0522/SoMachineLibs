@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library Name="SIG Applikation Framework model, 1.0.0.0 (SIG Combibloc Systems GmbH)">
+  <Node Name="IAFW.IF_TypedTree01" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{7ef56058-386c-432b-afad-564479c490f3}" />
+  <Node Name="IAFW.IF_TypedTree" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{cb7a5f38-8585-4925-9c50-0708d50e2ed7}" />
+  <Node Name="IAFW.IF_TypedList03" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{2442e1ac-a4f0-4ca8-ba89-d66fa390dce2}" />
+  <Node Name="IAFW.IF_TypedList02" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{7b364182-4e7a-4d33-a8e3-8bc6652776e3}" />
+  <Node Name="IAFW.IF_TypedList01" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{b59f6de7-3dd7-4823-b605-b806c51adbc0}" />
+  <Node Name="IF_TypedList" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{f7d50f1c-5b20-486d-8cc0-07f5751ac67b}" />
+  <Node Name="IAFW.IF_TypedElement02" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{edbfee08-516a-460e-8b34-76eb6171b895}" />
+  <Node Name="IAFW.IF_TypedElement01" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{68e0a354-e12b-487d-bc02-5b9e5a8fcc48}" />
+  <Node Name="IAFW.IF_TypedElement" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{1334412f-d736-4446-b4fa-32b52fd35870}" />
+  <Node Name="IF_ObjectLinkProtocol" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{d6d0a26e-8a73-4545-94c7-cac12059a3ef}" />
+  <Node Name="IF_Linkable" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{30ded041-7a7b-43dc-8373-620ec26c8de2}" />
+  <Node Name="IF_TypedTreeFactory" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{9b3049d7-78e4-4f4c-ac06-e4e2b599de9c}" />
+  <Node Name="IF_TypedListFactory" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{bb2246ed-e3ce-450b-b9a8-84aeb335d54b}" />
+  <Node Name="IF_Factory01" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{1ecd3ee7-c92f-4e67-8523-b082264fc912}" />
+  <Node Name="IF_Factory" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{ab737be3-91bb-43a0-b9e4-7559749f8f0a}" />
+  <Node Name="IF_TypedElementFactory" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{d092df94-5bd3-4ff9-8b4e-bfe02fd51f0e}" />
+  <Node Name="IAFW.IF_List01" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{d6110a7f-a684-4d85-a04f-23c2527d52c7}" />
+  <Node Name="IAFW.IF_List" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{8b4e3276-cb8d-46ee-8de7-2cd973902680}" />
+  <Node Name="IAFW.IF_List01" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{35cf9688-aa5f-45c3-b1d6-52639066acf5}" />
+  <Node Name="IAFW.IF_List" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{75732c64-60a6-4ecd-9316-fb0e0cf3f72c}" />
+  <Node Name="FB_TypedTree01" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" ------------------&#xD;&#xA; **FB_TypedTree**&#xD;&#xA; ------------------&#xD;&#xA; Extension of &quot;FB_Tree&quot; with generic input of generic&#xD;&#xA; functionblock interface" ObjectGUID="{79e8d92a-f48a-4a71-8c76-e5a238111d42}">
+    <Node Name="Dispose" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **Dispose**&#xD;&#xA;  | Dispose the element from heap" ObjectGUID="{9c4f7811-59eb-43ef-b3b7-859ccfc4f821}" />
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{a28b28b4-ea1d-439b-bc0c-c9ba0c57e20f}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{11e0c755-be68-4903-9d44-506eede00bcd}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{77f70166-501b-4420-91bc-cff2c7c2049e}" />
+    </Node>
+    <Node Name="AddLinkableObject" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **AddLinkableObject**&#xD;&#xA; Append an linkable generic object to tree" ObjectGUID="{e9d65984-2061-4eec-8d87-a5f434385a26}" />
+  </Node>
+  <Node Name="FB_TypedTree" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" ------------------&#xD;&#xA; **FB_TypedTree**&#xD;&#xA; ------------------&#xD;&#xA; Extension of &quot;FB_Tree&quot; with generic input of generic&#xD;&#xA; functionblock interface" ObjectGUID="{a1377582-af52-4c0a-b2bd-428dd8f8c233}">
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{9d39ab3c-5410-4d60-b7b5-629a33358465}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{bc8dea71-a857-40ce-84e0-526ef96c7eee}" />
+    </Node>
+    <Node Name="AddLinkableObject" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **AddLinkableObject**&#xD;&#xA; Append an linkable generic object to tree" ObjectGUID="{bb53e39e-d0c6-4c03-85f2-0d025fd16ab8}" />
+  </Node>
+  <Node Name="FB_Tree" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **FB_Tree**" ObjectGUID="{8d3e1a6b-c9ad-4f11-bffb-5c564add81d1}">
+    <Node Name="TypedTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{9d21909f-39d0-480b-9652-69dab9ae0ff7}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{7bb7a020-5b98-4746-bf2a-147bc7c314c3}" />
+    </Node>
+    <Node Name="SiblingCount" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{47022106-09ba-42b7-95c3-18af61abfe75}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{726768c6-7f91-4a7b-b82b-3b6c1a4d9423}" />
+    </Node>
+    <Node Name="RootTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{daca0afe-e7d6-4d45-a9f3-c8956f8ec2fa}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{728988de-bba5-4259-b769-7840c8f72cac}" />
+    </Node>
+    <Node Name="RemoveTree" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{9cfa9a84-a371-4648-a6d1-c31534f31ff6}" />
+    <Node Name="PrevSibling" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{375496ad-07eb-47e0-81ea-7e7717ddbcad}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{fbd56c1f-dd76-4703-bf2e-d4a57ab865b8}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{eee4e98b-fcdf-4110-b8df-75f32734649d}" />
+    </Node>
+    <Node Name="ParentTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{2fa4095a-670e-4806-9248-dc056b1a8a62}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{ae8832d9-d182-4982-ac65-1f16a284d777}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{3cf2c09d-ce77-4aa1-a74e-5af28f4d9298}" />
+    </Node>
+    <Node Name="NextSibling" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{104e3723-28bd-4cc1-bdd2-6791c6e3fae2}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{e60e65c4-3bd2-4633-8523-f2264251bec2}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{a41044cb-d3ad-4d1b-bbf6-2af046f2fe65}" />
+    </Node>
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b5392fe9-1b71-4540-b5ca-dd36d9f13fab}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{5dfd753b-9859-49e8-81e0-699de3d89744}" />
+    </Node>
+    <Node Name="LastChild" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{5fb8d084-8133-4374-a08e-36d9f6ff7cb7}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{f912e4f9-9cce-41c6-8e5b-1f1413897640}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{3cec7783-015d-445a-8e12-d6ea63b0707d}" />
+    </Node>
+    <Node Name="IsTreeRoot" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{f9f80ad6-241c-4a0d-b758-495e29128d88}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{d5c5b4ab-a398-4a83-afd8-904c2f701578}" />
+    </Node>
+    <Node Name="IsLinkedTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{9949963b-289c-46e7-909e-bbde07fe4256}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{184dd7de-b92a-48a4-8aef-dff048dde4b2}" />
+    </Node>
+    <Node Name="InsertSibling" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{c50df9a3-44d5-4cd0-917b-fbe702ebc345}" />
+    <Node Name="FirstChild" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b90ce3c5-7170-4197-a9a5-21b15e00cbba}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{f7648cb5-191c-40ac-b5fa-3ecb853816cd}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{fc2b2401-04c8-4d49-a572-03e44d18de6f}" />
+    </Node>
+    <Node Name="ChildCount" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{342af170-c2ff-49dd-a736-5bab417540ea}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{807ca0ce-36a1-4af6-8222-9acb759f72ed}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{d04b207a-6439-433d-9ddc-e9e5f15aa223}" />
+    </Node>
+    <Node Name="AddChild" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{a2034054-b62d-4dc0-a54d-b317edbb9487}" />
+  </Node>
+  <Node Name="FB_CreateableTree" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **FB_Tree**" ObjectGUID="{c7f27023-fc5b-4b10-b19b-03516f5c6610}">
+    <Node Name="TypedTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d4223df8-dc0c-418a-b579-b883f3e1934b}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{854498a9-2172-4cd4-a4bb-3f06c0c4782f}" />
+    </Node>
+    <Node Name="SiblingCount" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{5581d7b1-111f-4043-a09b-57a598c2def9}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{366e32d5-3c9d-4c00-9a8e-5ef9b415ffed}" />
+    </Node>
+    <Node Name="RootTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{c34d668f-0c0e-44e5-9b8d-fe411a237934}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{46857f60-9c00-4f5e-8283-6c52924f0618}" />
+    </Node>
+    <Node Name="RemoveTree" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{977d06a3-ca73-4d79-a4ab-49e8bc0bd032}" />
+    <Node Name="PrevSibling" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{0c29f0e8-40d0-48dd-9e0f-c607e1fd0704}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{db96ecbb-82f9-4ea7-8511-4ef7f8d6c0ba}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{6029b149-8e2f-4bb3-993a-a2e1ae4a438e}" />
+    </Node>
+    <Node Name="ParentTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{99fc3a23-b88e-46f6-81f1-b3928920e200}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{7a85dcc4-8df7-485b-b981-6c371e65b15c}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{9c7b7186-e6ac-4597-ab46-30cea22b8efe}" />
+    </Node>
+    <Node Name="NextSibling" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{3ece664f-0a02-4a7a-b121-46137c90055d}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{936a8837-3485-45da-aa3f-9324f7e1eb0d}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{f4309457-7982-4bbd-93fb-f85139218999}" />
+    </Node>
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{ad6c4c31-cb52-4bf2-a6e8-9c89b3a6743e}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{3efa5209-8962-4f04-a7e9-dd1835d97f40}" />
+    </Node>
+    <Node Name="LastChild" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{e9621dea-6558-47df-ad08-33fbe567ee44}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{aeb19756-4f89-4f9d-b57e-6b738f8b42e0}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{0c701ccf-b5df-4849-99a5-dbdbb0c402e3}" />
+    </Node>
+    <Node Name="IsTreeRoot" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{408e5375-1a13-4d3b-9612-bd335e4ca7ee}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{599b58bf-a549-4e61-a697-0f9c256508c2}" />
+    </Node>
+    <Node Name="IsLinkedTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{c12861b2-acd9-4bd8-a0df-733fb699d6fd}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{ac1d059d-dedb-4f6d-9770-423f50b446a9}" />
+    </Node>
+    <Node Name="InsertSibling" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{48ca6afc-5abe-4ac5-8d01-fa03cfe967bd}" />
+    <Node Name="FirstChild" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{a33a9cfa-028e-4885-b2a7-44843e4faecb}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{c1952a71-9396-43c0-8997-66240058b82a}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{710f7b47-65e5-4e4f-b767-6e3284358b98}" />
+    </Node>
+    <Node Name="ChildCount" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{3a51465c-384f-4e7b-96d9-fced26114b25}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{b13a220b-4d3c-4308-84d0-3483991233c2}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{fdfbf7cf-b466-42b5-8fe8-a635dc773a8a}" />
+    </Node>
+    <Node Name="AddChild" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{db0ffd7f-b3ff-4a7e-b86e-f8471563fd4b}" />
+  </Node>
+  <Node Name="FB_TypedList01" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment="**FB_TypedList**" ObjectGUID="{a2eaa21c-f320-4ee9-ad18-19b8d1609628}">
+    <Node Name="RegisterObject" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **RegisterObject**" ObjectGUID="{e3454df4-108f-4fe5-b76d-1f0d0161b8b9}" />
+    <Node Name="DeRegisterObject" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **DeRegisterObject**" ObjectGUID="{17d612f5-ac2f-47d7-94bb-b76bec9a74f2}" />
+    <Node Name="Dispose" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **Dispose**&#xD;&#xA;  | Dispose the element from heap" ObjectGUID="{edb8b8d1-f82b-4149-a7b4-db7e21d2c746}" />
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{f0104104-005a-41c9-9e70-d8fbb69bc75f}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{33070e21-db62-4ee4-a5ef-c8b534b15fed}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{996ffb98-3c08-4556-845f-32a519faa3bc}" />
+    </Node>
+  </Node>
+  <Node Name="FB_TypedList" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment="**FB_TypedList**" ObjectGUID="{951c5716-ccd8-4887-81dc-52a6a0b29d9f}">
+    <Node Name="RemoveLinkableObject" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **RemoveLinkableObject**&#xD;&#xA; Remove the element referenced by itfElement from the list" ObjectGUID="{82d36335-2a9f-4ee8-af89-c2d1d9ade985}" />
+    <Node Name="List" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{f3cd4a45-338d-429d-a8e1-81f9a9cf3f50}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{22a7d6c4-27e3-4c33-ad64-a1de82f05286}" />
+    </Node>
+    <Node Name="AppendLinkableObject" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **AppendLinkableObject**&#xD;&#xA; Append the element referenced by itfElement at the end of the list" ObjectGUID="{6c1653cb-aeba-4d75-a53c-eb2d6fb9bc10}" />
+  </Node>
+  <Node Name="FB_TypedElement01" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **FB_TypedElement01**&#xD;&#xA; Extension of &quot;FB_TypedElement01&quot; with generic input of generic object&#xD;&#xA; extends |FB_CreateableElement| for dynamic generation of an element" ObjectGUID="{55a00e89-375f-4082-8937-4002c4e467ab}">
+    <Node Name="UpdateOnlineChange" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **UpdateOnlineChange**&#xD;&#xA;   | This method is called from the system during the online change&#xD;&#xA;     :return: Returns True if the prepration was done sucessfully" ObjectGUID="{e30de51b-d1ed-4615-912c-bb0b32ac8d0e}" />
+    <Node Name="CheckParent" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **CheckParent**&#xD;&#xA;   | Check parent object where the element is linked to&#xD;&#xA;     :return: Returns True if a register or degregister operation was active" ObjectGUID="{d300f41a-4ad0-4c21-93d8-98624dc4d57c}" />
+    <Node Name="BeforeOnlineChange" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **BeforeOnlineChange**&#xD;&#xA;   | This method should be called from FB_Exit event to prepare the element before the online change&#xD;&#xA;     :return: Returns True if the prepration was done sucessfully" ObjectGUID="{eaa3dd1a-2879-4fd7-bc53-e60c29c81763}" />
+    <Node Name="Dispose" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **Dispose**&#xD;&#xA;  | Dispose the element from heap" ObjectGUID="{af05e518-7b62-4d65-a916-757a5853e326}" />
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{fa2e42bb-ba3f-4b86-8d5a-65d31b95a227}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{0a055f6f-ceb8-4ce8-89a1-31836547a656}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{882dc6aa-8f56-4e0c-8601-d2d21c9fed60}" />
+    </Node>
+    <Node Name="FB_Exit" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" IsHidden="true" ObjectGUID="{09112a71-b2b9-4032-930a-3bf2f208c5c4}" />
+  </Node>
+  <Node Name="FB_TypedElement" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **FB_TypedElement**&#xD;&#xA; Extension of &quot;FB_TypedElement&quot; with generic input of generic&#xD;&#xA; functionblock interface" ObjectGUID="{626222e0-59d6-4751-9d7c-fdb8b049cdc0}">
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b8ac3ade-3b23-4999-bfb4-5cc81303a311}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{b3501710-e3c5-42fe-aa27-b14f4ef5be6a}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{128f8f63-6fbc-42ca-a2fa-1530e0434083}" />
+    </Node>
+    <Node Name="FB_Exit" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" IsHidden="true" ObjectGUID="{b6711f8e-b3ad-4464-8269-c71a312a5a4e}" />
+  </Node>
+  <Node Name="FB_ObjectLinker" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" ''FB_ObjectLinker**&#xD;&#xA;" ObjectGUID="{bd81d8a7-8b2d-4991-a983-6bf45f8a41a9}">
+    <Node Name="RegisterObject" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **RegisterObject**" ObjectGUID="{c55846af-4df6-4fb0-a09c-615ff3955ab6}" />
+    <Node Name="DeRegisterObject" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **DeRegisterObject**" ObjectGUID="{4edda95f-0783-407b-bb5c-be8730191d2d}" />
+    <Node Name="TypedList" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{0cd310cd-776a-4a66-af16-ac262ee0271b}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{7844e234-0710-4673-93c2-644a4455e09c}" />
+    </Node>
+    <Node Name="FB_Exit" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" IsHidden="true" ObjectGUID="{0d945281-3a69-4050-925d-aec9cff5960f}" />
+  </Node>
+  <Node Name="FB_LinkableObject" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **FB_LinkableObject**&#xD;&#xA; Extension of &quot;FB_LinkableObject&quot; with generic input of generic&#xD;&#xA; functionblock interface" ObjectGUID="{2158ba20-955e-4f7d-8da6-98acd0fd6a1e}">
+    <Node Name="TypedElement" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{5167081d-2918-4c89-a962-7d8807844c94}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{366a985e-8869-47af-95a7-4d57a83b3982}" />
+    </Node>
+    <Node Name="FB_ReInit" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{8aae015f-1ae0-45ad-8757-ebef3a0fccff}" />
+    <Node Name="FB_Init" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" IsHidden="true" ObjectGUID="{92acd854-7ffb-4b3e-a385-f48c2256d9d9}" />
+    <Node Name="FB_Exit" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" IsHidden="true" ObjectGUID="{60635cd8-6b1b-46d4-b79f-393a90ed2631}" />
+    <Node Name="CheckParent" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **CheckParent**&#xD;&#xA; Check linking to parent list" ObjectGUID="{e1f01ba8-43c7-40f0-985a-d584ddc6f774}" />
+  </Node>
+  <Node Name="FB_TreeFactory" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" This is a template for a factory with an heap based extendable memory pool" ObjectGUID="{6371eaa2-5be2-49da-b5c9-7197426bbab1}">
+    <Node Name="CreateTypedTree" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment="**CreateTypedElement**&#xD;&#xA; Create FB_TypedElement in heap memory of PLC&#xD;&#xA; :return: Returns the interface |IAFW.IF_TypedElement01| from generation otherwise null" ObjectGUID="{f07c8401-1eb1-4488-b971-0448a037d403}" />
+    <Node Name="prvInstSize" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b8c18270-4d53-4233-aa9f-9b83c1688360}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{15422c18-e771-48cc-babc-1f35bd089cb3}" />
+    </Node>
+    <Node Name="prvInstPoolExtendsFactor" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{af497853-e38f-42cb-bc59-d83f5d56bb66}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{b5c913e2-3b8f-49ab-b8bf-aed27c377613}" />
+    </Node>
+    <Node Name="prvInstCount" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{a509a2d2-5432-4b08-8a08-557674cb975b}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{7145616b-2ccc-48b6-84b5-297388c7f04e}" />
+    </Node>
+    <Node Name="Create" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" Please replace CustonFB with your specific function block type &#xD;&#xA; There is no need to change anything else !!! " ObjectGUID="{56e8cac3-897e-40b6-8632-858d5cda9869}" />
+  </Node>
+  <Node Name="FB_ListFactory" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" This is a template for a factory with an heap based extendable memory pool" ObjectGUID="{2c1977d4-9b9f-42d1-8cf6-c10738278d9b}">
+    <Node Name="CreateTypedList" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment="**CreateTypedElement**&#xD;&#xA; Create FB_TypedElement in heap memory of PLC&#xD;&#xA; :return: Returns the interface |IAFW.IF_TypedElement| from generation otherwise null" ObjectGUID="{192c863a-e9d6-4212-a7ed-d3704ef0ec80}" />
+    <Node Name="prvInstSize" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d9f19760-25ca-4d7b-8c82-cea8098c2213}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{594bb4fd-99ce-4772-afa3-a3414e43f846}" />
+    </Node>
+    <Node Name="prvInstPoolExtendsFactor" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d8f8592f-040a-49cb-b56e-01ae6093b225}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{1f295d47-6eaf-4b6e-b4c2-81ec48de0c53}" />
+    </Node>
+    <Node Name="prvInstCount" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{1c0558df-2f1f-4781-9332-5cc7d7d062ac}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{ec6e483d-81b7-4b17-a298-e9606b642cf6}" />
+    </Node>
+    <Node Name="Create" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" Please replace CustonFB with your specific function block type &#xD;&#xA; There is no need to change anything else !!! " ObjectGUID="{4be9d8c8-0cb5-4c37-8e0e-154cb6e4c60f}" />
+  </Node>
+  <Node Name="FB_Factory" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{d16d1cfe-d2eb-4d4a-a0e8-f95caa45f9e8}">
+    <Node Name="NumberOfCreatedTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{f074cf40-2d82-4702-ada3-8ee737c4ef8e}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{e9459109-c237-424b-8e0a-4d47fd599103}" />
+    </Node>
+    <Node Name="CreateTypedTree" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment="**CreateTypedTree**&#xD;&#xA; Create FB_TypedTree in heap memory of PLC&#xD;&#xA; :return: Returns the interface IF_TypedTree01 from generation otherwise null" ObjectGUID="{c7846df3-04a1-4de7-aa92-5fe708d5a300}" />
+    <Node Name="NumberOfCreatedList" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{7cbc0de0-e25c-427d-af68-7171f5f6b0df}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{830366b0-fe1a-46b0-a015-42aa64590474}" />
+    </Node>
+    <Node Name="NumberOfCreatedElement" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{74d778d4-e96f-428d-8f1c-0e41691d5679}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{d5f4de51-30cb-4e83-9ee5-14ac51c7384e}" />
+    </Node>
+    <Node Name="CreateTypedList" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment="**CreateTypedList**&#xD;&#xA; Create FB_TypedList in heap memory of PLC&#xD;&#xA; :return: Returns the interface |IAFW.IF_TypedList| from generation otherwise null" ObjectGUID="{ae6132c5-15ee-4033-a083-73b9aea88360}" />
+    <Node Name="CreateTypedElement" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment="**CreateTypedElement**&#xD;&#xA; Create FB_TypedElement in heap memory of PLC&#xD;&#xA; :return: Returns the interface |IAFW.IF_TypedElement| from generation otherwise null" ObjectGUID="{c4888e03-bd8d-4388-a480-1ab92f67cdc2}" />
+    <Node Name="AllocatedMemory" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{9c53fd17-416e-488c-8977-7684e2ea51ed}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{de466269-783e-4989-a957-26fc6dca2743}" />
+    </Node>
+  </Node>
+  <Node Name="FB_ElementFactory" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" This is a template for a factory with an heap based extendable memory pool" ObjectGUID="{316e457d-5510-4d85-b754-ef6f3d838097}">
+    <Node Name="CreateTypedElement" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment="**CreateTypedElement**&#xD;&#xA; Create FB_TypedElement in heap memory of PLC&#xD;&#xA; :return: Returns the interface |IAFW.IF_TypedElement01| from generation otherwise null" ObjectGUID="{05d9739d-0c49-4116-b0fd-5fd40f3292e9}" />
+    <Node Name="prvInstSize" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{9dc8f4bf-79e8-4063-9fe4-357c877dec3e}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{d4afbc2a-3789-49e2-883f-e079baf4db02}" />
+    </Node>
+    <Node Name="prvInstPoolExtendsFactor" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{85804db1-4c64-4e7c-9bd4-85530fd84cba}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{4df71d53-cd88-482f-94a4-8aa4e693c852}" />
+    </Node>
+    <Node Name="prvInstCount" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{a53b95dc-baeb-41b4-8925-c16f438091a0}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{6e1b08df-ab56-4512-a233-25155337daad}" />
+    </Node>
+    <Node Name="Create" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" Please replace CustonFB with your specific function block type &#xD;&#xA; There is no need to change anything else !!! " ObjectGUID="{e9776bbb-f03b-4ab9-8320-73b3f9fecaab}" />
+  </Node>
+  <Node Name="FB_CreateableList" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment="**FB_List**" ObjectGUID="{8ace0dcc-a8d0-4735-ad3d-666fea1a9142}">
+    <Node Name="Clear" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **Clear**&#xD;&#xA;  | Clear all elements from list&#xD;&#xA;    :return: Returns True if the list is empty" ObjectGUID="{b3b938aa-cf6a-46b9-90f3-f74e4b328d3b}" />
+    <Node Name="TailElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b6303fd0-b0bd-4f91-bca2-c7c8a19f108a}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{2ff9be3e-6a17-4a77-a37b-cbcb123fdcd7}" />
+    </Node>
+    <Node Name="RemoveElem" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" Remove the element referenced by itfElement from the end of the list.&#xD;&#xA; Is the element successfully removed the result value is itfElement otherwise zero" ObjectGUID="{0018572a-c06c-4af1-9aae-3ed4bfc59744}" />
+    <Node Name="PushElem" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{c932f903-e90e-4565-bf28-65f6741fb78f}" />
+    <Node Name="PopElem" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{c4414de3-7d76-4a54-b6b1-061cecb425bc}" />
+    <Node Name="PopBackElem" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{c1f39dcb-db9d-4ddc-a249-21447d42c373}" />
+    <Node Name="ListSize" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{16c2a1e5-ed70-42a3-a87e-9f4a22e8524d}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{d7b0e2f9-2cf3-4f38-95ac-d70e85a60bdd}" />
+    </Node>
+    <Node Name="ListIsEmpty" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{4c3d4c36-23f2-44a2-a987-507da42d33ff}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{4f1bf2a7-2265-4c01-9f49-d07fcedceead}" />
+    </Node>
+    <Node Name="InsertElem" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{161d40f3-8ff9-475a-b399-dca62440c47b}" />
+    <Node Name="HeadElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{8640fdfe-c06e-4866-be1d-35dfece5d08b}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{dd2dced8-9cb8-4758-91f6-be6345877f17}" />
+    </Node>
+    <Node Name="AppendElem" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" Append the element referenced by itfElement at the end of the list" ObjectGUID="{52d73991-40f2-4771-80ac-01c0a09833b2}" />
+  </Node>
+  <Node Name="FB_CreateableElement" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **FB_Element**" ObjectGUID="{3cad052f-3fb7-46db-a35f-e2fe396560c3}">
+    <Node Name="TypedElement" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{5fab309c-0070-4e7c-a999-6e52c1354ac4}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{7a67ada4-e026-4e26-92e0-0f746108ea9b}" />
+    </Node>
+    <Node Name="RemoveElem" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{d9aa3460-ba3c-4dda-a50f-0f401fa67c83}" />
+    <Node Name="PrevElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{40850abf-3a32-4813-abd8-116494803382}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{95831394-8658-4a7c-b4cf-06dabb7cb4df}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{e09383e0-eef0-4be2-9140-720e6f252bd3}" />
+    </Node>
+    <Node Name="NextElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{e85ad98f-92f4-4b50-9a33-28a2b17cfdb4}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{933dccab-70c4-448c-b7f0-3469e01091bf}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{8b20d0d2-d8e0-4826-a2ac-271398a1ca9e}" />
+    </Node>
+    <Node Name="List" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{91a58474-71b2-4d9a-81c4-f8ff4e925fbd}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{5618a083-dbd6-4c7e-a8fa-31f64cb05a6e}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{37b3582c-9ced-470b-84f6-8894c37b929e}" />
+    </Node>
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{bf1e32de-2943-4d62-b3c1-3caac9555bc8}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{3b8f5832-186b-46c3-b4c7-f0d65d7e0b36}" />
+    </Node>
+    <Node Name="IsListMemberOf" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{75229ae4-7378-4398-94fc-ca074cca6d78}" />
+    <Node Name="IsLinkedElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{e558504a-f3ea-44e4-ac80-0a8e7bced2ce}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{05b064af-0efd-4c4f-a7bc-a2a79c1c6a05}" />
+    </Node>
+  </Node>
+  <Node Name="FB_List" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment="**FB_List**" ObjectGUID="{e59f92d1-685c-457c-9166-a1458706dfa5}">
+    <Node Name="Clear" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **Clear**&#xD;&#xA;  | Clear all elements from list&#xD;&#xA;    :return: Returns True if the list is empty" ObjectGUID="{5174e55c-0bd5-46ef-ae68-cd525c760805}" />
+    <Node Name="TailElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{fd7fc04d-2a9e-4f44-b975-f8e3b71d9ca0}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{308b8c05-71bb-43c9-a2bf-fd81f9ee952d}" />
+    </Node>
+    <Node Name="RemoveElem" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" Remove the element referenced by itfElement from the end of the list.&#xD;&#xA; Is the element successfully removed the result value is itfElement otherwise zero" ObjectGUID="{a9b9d55e-919e-4c80-86a5-1a5d6f6e3fcf}" />
+    <Node Name="PushElem" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{0e7b8a2f-313c-49ef-9ac5-99ad1cbd166d}" />
+    <Node Name="PopElem" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{0da70374-7986-4e55-8ab0-0083c6043033}" />
+    <Node Name="PopBackElem" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{5a12da21-75d5-4e5e-9242-c68bb9c25e32}" />
+    <Node Name="ListSize" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b637bcba-673e-4f70-bf76-895f293eced1}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{477cc1c0-861a-4435-aae0-373dce4e2b71}" />
+    </Node>
+    <Node Name="ListIsEmpty" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d81433b8-eb75-4735-8e04-7841baf95c95}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{42ba3669-e7de-443a-bc2b-f4e4c4fa44b7}" />
+    </Node>
+    <Node Name="InsertElem" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{d5db5b54-4ff1-4685-904d-56e9eae8b7dd}" />
+    <Node Name="HeadElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{09135818-35b9-4fc9-bc12-c0f51bba9d48}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{729f0191-beda-4096-8866-d4bafc7d1d0a}" />
+    </Node>
+    <Node Name="AppendElem" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" Append the element referenced by itfElement at the end of the list" ObjectGUID="{5e9507e3-f35c-4fda-9dcd-f771bd3accb3}" />
+  </Node>
+  <Node Name="FB_Element" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **FB_Element**" ObjectGUID="{191a8884-f7f4-48e3-b594-f0b03c2b579b}">
+    <Node Name="TypedElement" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{c8ffe6ac-69b0-4521-b177-3f228d32d90a}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{32bd4548-3ab5-45bd-ab8f-c4bb44823d3a}" />
+    </Node>
+    <Node Name="RemoveElem" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{2cfe640a-d379-43b7-82bb-95c580364b17}" />
+    <Node Name="PrevElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{95f1b785-2474-4b1a-b151-cb4be7f33237}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{a5117055-60f9-4f9f-a92d-4bfbe7979e55}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{47b77049-355a-4a81-96bc-a81ced919a8e}" />
+    </Node>
+    <Node Name="NextElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{e7d5d5cf-bded-4690-ac11-d040b7853d42}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{0a32d776-c2c4-4dc8-9955-31cae282b192}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{01403566-70ee-4317-900e-17111ec2138f}" />
+    </Node>
+    <Node Name="List" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{3691a844-517e-4771-ad7f-f49f7b923fbe}">
+      <Node Name="Set" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{10f92340-9488-4374-a087-bf5d1743c751}" />
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{43a4c1be-a0d6-4939-921f-0b92d347755f}" />
+    </Node>
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{50f9155e-adb2-429d-abf4-5b4d36f3b324}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{0281f5f9-5af8-423d-81e5-279452762c74}" />
+    </Node>
+    <Node Name="IsListMemberOf" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{6c455724-f91d-4fbf-bccb-d0970b8cf57b}" />
+    <Node Name="IsLinkedElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{af716914-0c4f-4eab-a2c1-35a1fbd36b09}">
+      <Node Name="Get" TypeGUID="{792f2eb6-721e-4e64-ba20-bc98351056db}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{1f119a2d-b624-4665-b415-bae9c0ac9dab}" />
+    </Node>
+  </Node>
+  <Node Name="IF_TypedTreeFactory" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IF_TypedTreeFactory**&#xD;&#xA; The IF_TypedTreeFactory is neccessary to support the heap generation of FB_TypedTree" ObjectGUID="{bb1e30e6-2c2b-4e3c-8989-3c3979919cc6}">
+    <Node Name="CreateTypedTree" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="**CreateTypedTree**&#xD;&#xA; Create FB_TypedTree in heap memory of PLC&#xD;&#xA; :return: Returns the interface IF_TypedTree01 from generation otherwise null" ObjectGUID="{b64d32d7-8bf4-4f87-8bb9-9e724c7e1954}" />
+  </Node>
+  <Node Name="IF_TypedListFactory" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IAFW.IF_TypedElementFactory**&#xD;&#xA; The IAFW.IF_TypedElementFactory is neccessary to support the heap generation of FB_TypedElement" ObjectGUID="{46ae9979-b23b-4181-9553-170a1bf10278}">
+    <Node Name="CreateTypedList" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="**CreateTypedList**&#xD;&#xA; Create FB_TypedList in heap memory of PLC&#xD;&#xA; :return: Returns the interface IAFW.IF_TypedList from generation otherwise null" ObjectGUID="{1a36ec2c-1b2f-49bd-a39b-b3df3fffc534}" />
+  </Node>
+  <Node Name="IF_TypedElementFactory" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IAFW.IF_TypedElementFactory**&#xD;&#xA; The IAFW.IF_TypedElementFactory is neccessary to support the heap generation of FB_TypedElement" ObjectGUID="{82d5bb13-62ea-4f5a-ba92-b8f99f1d85ac}">
+    <Node Name="CreateTypedElement" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="**CreateTypedElement**&#xD;&#xA; Create FB_TypedElement in heap memory of PLC&#xD;&#xA; :return: Returns the interface IF_TypedElement from generation otherwise null" ObjectGUID="{94d8cda4-ef8d-4b2e-9a09-87c403feeea7}" />
+  </Node>
+  <Node Name="IF_Factory01" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{f543f9b7-75ec-42e9-97b2-11bdd9771ef7}">
+    <Node Name="NumberOfCreatedTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{efbdda9c-3960-4e62-8f96-cfe8b77ce3d6}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{92aee0f0-9af7-463c-9c89-84e994dd281f}" />
+    </Node>
+    <Node Name="CreateTypedTree" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="**CreateTypedTree**&#xD;&#xA; Create FB_TypedTree in heap memory of PLC&#xD;&#xA; :return: Returns the interface IF_TypedTree01 from generation otherwise null" ObjectGUID="{c394fe74-33f9-46a9-aba7-9851ad168050}" />
+  </Node>
+  <Node Name="IF_Factory" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IAFW.IF_TypedElementFactory**&#xD;&#xA; The IAFW.IF_TypedElementFactory is neccessary to support the heap generation of FB_TypedElement" ObjectGUID="{94a83c98-70a5-45b8-be1e-37edadfd774a}">
+    <Node Name="NumberOfCreatedList" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{93ea9822-506c-424c-8074-2ad83519cdb4}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{2f776b06-fedf-4e58-89be-1e3ea53638ba}" />
+    </Node>
+    <Node Name="NumberOfCreatedElement" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{0c15e405-efcf-4104-80b6-eea468f1dc78}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{6801f3f2-e236-48d2-a808-535fbf97952e}" />
+    </Node>
+    <Node Name="CreateTypedList" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="**CreateTypedList**&#xD;&#xA; Create FB_TypedList in heap memory of PLC&#xD;&#xA; :return: Returns the interface IF_TypedList from generation otherwise null" ObjectGUID="{f0ace8ac-0665-48cc-ab27-3be9a6d00c76}" />
+    <Node Name="CreateTypedElement" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="**CreateTypedElement**&#xD;&#xA; Create FB_TypedElement in heap memory of PLC&#xD;&#xA; :return: Returns the interface IF_TypedElement from generation otherwise null" ObjectGUID="{416b9342-f18e-4a60-9889-5cc020b48218}" />
+    <Node Name="AllocatedMemory" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{4e3660db-1ef0-46cc-a220-315142885c89}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{19976b5f-b76a-43c5-88ed-94a04e2ea1be}" />
+    </Node>
+  </Node>
+  <Node Name="GVL_Factory_Local" TypeGUID="{ffbfa93a-b94d-45fc-a329-229860183b1d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{5a62ed05-bac9-441a-a362-76d2ba589860}" />
+  <Node Name="GVL" TypeGUID="{ffbfa93a-b94d-45fc-a329-229860183b1d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{88973258-0bd0-4ae6-8ffc-19926f889c42}" />
+  <Node Name="fc_diHash" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" **fc_diHash**&#xD;&#xA; Create hashkey from text. UwZe" ObjectGUID="{80c5d0d1-374f-4788-a29c-f50a73f54c71}" />
+  <Node Name="Tree" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{c63cabc7-bf8c-49f3-9dac-982258d6e7ba}" />
+  <Node Name="ObjectLink" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{30a3129c-236d-4d2e-8a9f-90b21df2fa11}" />
+  <Node Name="Factory" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{6f161e1d-41f1-480c-bd64-3fbfa2d32a84}" />
+  <Node Name="Element" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{4fc1e0c5-eb2d-4727-bb76-81d57a573637}" />
+  <Node Name="ERROR" TypeGUID="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d628a33d-6c13-4cfd-9a87-35565957687b}" />
+  <Node Name="History" TypeGUID="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="&#xD;&#xA;Copyright SIG Combibloc Systems GmbH 2016 All rights reserved. &#xD;&#xA;Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of &#xD;&#xA;this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent &#xD;&#xA;possible under the law. &#xD;&#xA;									&#xD;&#xA;.. list-table::&#xD;&#xA;   :widths: 15 25 30 100&#xD;&#xA;   :header-rows: 1&#xD;&#xA;&#xD;&#xA;   * - Version&#xD;&#xA;     - YYYY-MM-DD&#xD;&#xA;     - changed BY&#xD;&#xA;     - Comment&#xD;&#xA;&#xD;&#xA;   * - 1.0.0.0&#xD;&#xA;   	 - 2018-05-18&#xD;&#xA;	 - Uwe Zell&#xD;&#xA;     - * Update library for SoMM 44&#xD;&#xA;       * Update project information property&#xD;&#xA;	   &#xD;&#xA;   * - 0.0.3.14&#xD;&#xA;	 - 2018-04-15&#xD;&#xA;	 - Uwe Zell&#xD;&#xA;     - New Interface IF_Linkable01, IF_TypedElement02 and IF_TypedList03.&#xD;&#xA;       This new interface can be used to harmonize the code constructions in linking operations  &#xD;&#xA;     &#xD;&#xA;   * - 0.0.3.13&#xD;&#xA;	 - 2016-11-07&#xD;&#xA;	 - Shivaram Kumar&#xD;&#xA;     - Updated library and removed automatic project info gen  &#xD;&#xA;     &#xD;&#xA;   * - 0.0.3.12&#xD;&#xA;	 - 2016-10-17&#xD;&#xA;	 - Shivaram Kumar&#xD;&#xA;     - Jenkins 2.0  &#xD;&#xA; 		 &#xD;&#xA;   * - 0.0.3.11&#xD;&#xA;	 - 2016-05-24&#xD;&#xA;	 - Shivaram Kumar&#xD;&#xA;     - Generate POUs for project information &#xD;&#xA; 		 &#xD;&#xA;   * - 0.0.3.10&#xD;&#xA;     - 2016-04-28&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Implement New Factory for Tree objects &#xD;&#xA;     &#xD;&#xA;   * - 0.0.3.9&#xD;&#xA;     - 2016-04-26&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Compiled with SOMM4.3  &#xD;&#xA;     &#xD;&#xA;   * - 0.0.3.8&#xD;&#xA;     - 2016-04-18&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - * Add: Publish some informations about the amount of allocated memory  &#xD;&#xA;       * Fix: Version number in history comment was not correct&#xD;&#xA;    &#xD;&#xA;   * - 0.0.3.7&#xD;&#xA;     - 2016-04-12&#xD;&#xA;     - Michael Rösseler&#xD;&#xA;     - Included AFW Interface Library with \*-Mechanism instead of Placeholder&#xD;&#xA;     &#xD;&#xA;   * - 0.0.3.6&#xD;&#xA;     - 2016-03-31&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Add new Interface with **Dispose** method to followed interface:&#xD;&#xA;        * IF_TypedElement to IF_TypedElement01&#xD;&#xA;        * IF_TypedList01 to IF_TypedList02&#xD;&#xA;&#xD;&#xA;   * - 0.0.3.5&#xD;&#xA;     - 2016-03-04&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Add new Interface IF_TypedElementFactory and functionblock to serve&#xD;&#xA;       operation with dynamic generation of FB_TypedElement objects&#xD;&#xA;&#xD;&#xA;   * - 0.0.3.4&#xD;&#xA;     - 2015-10-08&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Compile with SOMM V4.2 rename Placeholder to &quot;SIG AFW&quot;&#xD;&#xA;&#xD;&#xA;   * - 0.0.3.3&#xD;&#xA;     - 2015-05-18&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Lib now compatible to Version 2.21&#xD;&#xA;&#xD;&#xA;   * - 0.0.3.2&#xD;&#xA;     - 2015-05-18&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - FB_ObjectLinker: add method FB_Exit&#xD;&#xA;&#xD;&#xA;   * - 0.0.3.0&#xD;&#xA;     - 2015-05-15&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Modifycation of IAFW.IF_Linkable: add CheckParent&#xD;&#xA;       Implementation of FB_ObjectLinker&#xD;&#xA;&#xD;&#xA;   * - 0.0.2.21&#xD;&#xA;     - 2015-03-17&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Implementation of placeholder &quot;Applicationframework&quot;&#xD;&#xA;&#xD;&#xA;   * - 0.0.2.20&#xD;&#xA;     - 2015-03-13&#xD;&#xA;     - CT/UwZe&#xD;&#xA;     - Add new methode &quot;RemoveLinkableObject&quot; to FB_TypedList&#xD;&#xA;&#xD;&#xA;   * - 0.0.2.19&#xD;&#xA;     - 2015-03-10&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Add some pragma attributes to element and tree&#xD;&#xA;&#xD;&#xA;   * - 0.0.2.18&#xD;&#xA;     - 2015-02-27&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Implementation of TypedTree and TypedList&#xD;&#xA;&#xD;&#xA;   * - 0.0.2.16&#xD;&#xA;     - 2015-02-20&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Implementation of TypedElement, remove LAT as basic lib&#xD;&#xA;&#xD;&#xA;   * - 0.0.1.13&#xD;&#xA;     - 2014-12-04&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Remove all own code, just extend the LAT library with not implemented function&#xD;&#xA;       Save lib with SOMM 4.1&#xD;&#xA;&#xD;&#xA;   * - 0.0.0.11&#xD;&#xA;     - 2014-10-09&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Add new AFW Library based on LAT library&#xD;&#xA;&#xD;&#xA;   * - 0.0.0.10&#xD;&#xA;     - 2014-09-01&#xD;&#xA;     - M.Rösseler&#xD;&#xA;     - Added FB_ListCleanUp, Added program header to List, Element and Tree&#xD;&#xA;&#xD;&#xA;   * - 0.0.0.1&#xD;&#xA;     - 2014-03-09&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Initial version&#xD;&#xA;" ObjectGUID="{8d9c6e38-fb79-48b9-b889-0e415e676bb3}" />
+  <Node Name="IsLibReleased" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" This function has been automatically generated from the project information." ObjectGUID="{445d2b8e-e5c5-54ec-8b5c-0abf82faae3a}" />
+  <Node Name="GetLibVersionNumber" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" This function has been automatically generated from the project information." ObjectGUID="{e5561e6b-e4a3-52c2-afe2-127b8d3ac083}" />
+  <Node Name="GetLibVersion" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" This function has been automatically generated from the project information." ObjectGUID="{d754badd-b8c8-5d3b-840b-2496c8e67b65}" />
+  <Node Name="Interfaces" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{c2fd0448-2df6-4d08-a877-3e57ebde9842}" />
+  <Node Name="GVL" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{7b47a0d3-b7bc-44d8-94db-33fae784131c}" />
+  <Node Name="Functions" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{a1970cad-fb7e-4f32-9f9c-fd8f237326f9}" />
+  <Node Name="Function Blocks" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{8ad6e219-0844-4a03-9d00-6077c0ff578e}" />
+  <Node Name="Enums" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{d53bc083-e605-4995-83a3-a94382ab23f1}" />
+  <Node Name="Documentation" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{1fe4873c-41df-4cea-a920-0f78070559b3}" />
+  <Node Name="Project Settings" TypeGUID="{8753fe6f-4a22-4320-8103-e553c4fc8e04}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{6470a90f-b7cb-43ac-9ae5-94b2338b4573}" />
+  <Node Name="Project Information" TypeGUID="{085afe48-c5d8-4ea5-ab0d-b35701fa6009}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{11c0fc3a-9bcf-4dd8-ac38-efb93363e521}" />
+  <Node Name="Library Manager" TypeGUID="{adb5cb65-8e1d-4a00-b70a-375ea27582f3}" EmbeddedTypeGUIDs="" ObjectGUID="{49b09074-df4a-4a59-beaa-0eee750009fc}" />
+  <Node Name="Library Information" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{c8706b13-1f28-4097-8c35-c12aa6824251}" />
+  <Node Name="ApplicationFrameWork" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{b9741afd-ccd3-4994-99f4-7d8a942952f6}" />
+</Library>

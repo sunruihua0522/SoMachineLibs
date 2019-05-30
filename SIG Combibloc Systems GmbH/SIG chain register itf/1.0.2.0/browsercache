@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library Name="SIG chain register itf, 1.0.2.0 (SIG Combibloc Systems GmbH)">
+  <Node Name="IF_Diversion01" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b58f844d-bd8d-4589-ad3c-64de97d16aee}">
+    <Node Name="ChainNumber" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{30d78eae-5755-4815-9e90-be86bcab71b8}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b7e84263-4340-4e13-91f3-6509f9e958bb}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{797bbdaa-71d4-45af-8443-09a78265e07d}" />
+    </Node>
+  </Node>
+  <Node Name="IF_Diversion" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{66d923fb-db03-450d-a647-56f6cf505ab1}">
+    <Node Name="DiversionTracks" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{6b29d6a9-eeaa-4eb8-b445-776db1692965}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{5af6bf07-8add-45de-8120-f33dd3d898ab}" />
+    </Node>
+    <Node Name="DiversionStart" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{ff17e378-5fd0-42ad-bc44-e94b52f13248}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{532df254-4045-44bc-b017-bba6cc09a1e0}" />
+    </Node>
+    <Node Name="DiversionLength" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{ac5810bb-28bb-4c0a-976a-dce04964cd6f}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{4a168a71-699b-44c2-b31f-d8fdf0b6fad5}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ChainLinkIntern" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{083d412f-cef5-49e0-8388-50431be6bc68}">
+    <Node Name="LinkNumber" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{39811806-83a1-40e0-b008-d947bbbc685a}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{0bcea6f2-c356-432d-936c-13bfde249fc0}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ChainLink03" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{bdcd1c06-e552-4031-a5a3-df1aea3c2777}">
+    <Node Name="PreviousLink" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{47953b14-fbf3-4942-957d-c1af59335f0e}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{7245efe7-8f0e-429e-a0ff-fa5a82a7e099}" />
+    </Node>
+    <Node Name="NextLink" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{c3ba1695-ae62-468d-a7c1-42e12b7cb48b}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{f6ccc614-1d2a-4132-90a6-aeb1f8544d1a}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ChainLink02" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{96d5d5b5-fea6-474c-8b2c-d5dbb3a5180c}">
+    <Node Name="ChainNumber" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{1c19da2f-67a6-4cb9-a288-c2348ece5e48}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{51ceb125-b4d2-4e25-8e5d-60977de4efe1}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ChainLink01" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{aa59656c-b10d-4a55-9042-abd0d239e823}">
+    <Node Name="PackageDamage" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{82f91b67-2c39-43f7-b5a1-5bcd6c1e9b70}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{4393d2a0-8d8d-4cf4-ab99-45415163aa8e}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{c5792896-90b7-421e-864a-a93720169309}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ChainLink" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{7dd1ba35-c0a3-4327-8f3d-a4a689d8fd26}">
+    <Node Name="Package" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{fd4e64fe-cd85-4bcd-ab9d-a8961c960651}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{1c0c2341-c47e-4398-a54d-4c99c69343e9}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{a4116e0a-258e-4487-abdd-165033bc24f8}" />
+    </Node>
+    <Node Name="LinkNumber" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{8d621bb0-d19f-4458-92b0-8c670dcab5bc}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{fa08328b-918b-4e61-a2ac-07dacd4cc038}" />
+    </Node>
+    <Node Name="DiversionReason" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{8844759d-8bdb-4a20-9142-6bf5e25980d9}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{21db2fd9-75dd-4fa9-90a1-ba42005b95ca}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{92596381-1684-4275-b290-1c751c09facd}" />
+    </Node>
+    <Node Name="DiversionActive" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{2e8c2930-f789-4fbb-8fa9-8a6a12cb7d37}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{c402b31e-4e6c-49a3-8867-c953e8c91315}" />
+    </Node>
+    <Node Name="Disabled" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{121faa65-919f-4c2e-aa43-40f28f854412}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{7250bbdd-31c1-4169-9494-f7455d663046}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d123891e-bd20-493d-8918-610e1ad3f08e}" />
+    </Node>
+    <Node Name="Data" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{cd151019-1620-4444-946a-8d3798d6ea0e}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{5d4d7d89-132d-447f-b4a1-cf4e48e1da13}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{3ba0ef26-ea1f-4b14-a657-ff2aec289369}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ChainGroup01" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{0e84274d-7e42-4416-96b9-f2681f22c279}">
+    <Node Name="Tracks" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{9dd1b098-8c69-4fe1-a6f6-4f222f0cddb2}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{32f89478-3fa5-4473-a35d-b19d91f9f72d}" />
+    </Node>
+    <Node Name="ShiftChain" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **ShiftChain**&#xD;&#xA;  | Shift the complete chain" ObjectGUID="{3fd3882c-3c73-4f69-861e-3ef2a14a5b9a}" />
+    <Node Name="Link03" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **Link02**&#xD;&#xA;  :return: Returns the complete interface |IF_ChainLink02| of one chain link" ObjectGUID="{8242701c-15f5-4b72-ba13-06e12e8f5a1f}" />
+    <Node Name="IsEmpty" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{6bd3616f-4c50-45d7-9859-845816cd8db2}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{55a6ff56-3f8e-4b33-a094-55d52e666fcd}" />
+    </Node>
+    <Node Name="CountTrack" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **CountTrack**&#xD;&#xA;   | Counting inside on track, eg. empty links or packages without diversion or damage package inside a chain area &#xD;&#xA;  :return: calculated value  " ObjectGUID="{c534a5d0-898f-466d-8428-9aac936b4d09}" />
+    <Node Name="CountRow" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **CountRow**&#xD;&#xA;   | Counting value inside one row, eg. empty links or packages without diversion or damage package inside a chain area &#xD;&#xA;  :return: calculated value  " ObjectGUID="{bbdc39b5-2529-47d5-b796-543f8daf278a}" />
+    <Node Name="CountAll" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **Count**&#xD;&#xA;   | Counting of empty links or packages without diversion or damage package inside a chain area &#xD;&#xA;  :return: calculated value  " ObjectGUID="{dfac09b1-c1d5-40e8-8b82-eb1dc884fff9}" />
+    <Node Name="ChainLinks" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{ed6518c6-c729-4201-8420-b1eadb2c3941}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{8a928275-50c5-4a53-bbef-142ac68e832c}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ChainGroup" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d23f0e48-b198-4473-ad98-965d0b20d6e3}">
+    <Node Name="StartLink" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b5fb805f-5216-4a52-a7af-0add41707bb1}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{90a4e467-473e-41f4-8d71-c3ab849c1955}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{8985dc11-3776-4071-90a2-b9207a30e49a}" />
+    </Node>
+    <Node Name="GroupIndex" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{2c4c68ec-7bbc-4edf-bcbe-777bc06dec29}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{13e2a3a6-6060-431a-8461-462d81c501c4}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{72d09a3d-e9c0-453f-858c-7735d2bf6f7a}" />
+    </Node>
+    <Node Name="EndLink" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{3fa9e8f7-b922-489e-b6a5-31ccf1a0b9af}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d6156dbd-234b-46f1-a3c1-b083d5d8b764}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{99deb4d4-f721-4e10-a92a-e29b4eb02867}" />
+    </Node>
+  </Node>
+  <Node Name="IF_Chain07" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IF_Chain05**&#xD;&#xA; The access to complete chain register is allowed  &#xD;&#xA; by this interface only&#xD;&#xA;&#xD;&#xA; .. note::&#xD;&#xA;    You have to use the global variable G_ifTheChain for access through the chain register&#xD;&#xA;" ObjectGUID="{df359497-af4b-4b70-bd7c-bb87d33d830b}">
+    <Node Name="Tracks" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{a9d56642-fad6-4999-9009-8fa6b63fa51c}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{fff24ffb-9a0a-43a4-a2a5-8072d2eed1ce}" />
+    </Node>
+    <Node Name="GetChainGroup" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **GetChainGroup**&#xD;&#xA;   | Get group interface  &#xD;&#xA;  :return: selected group interface or 0 if not group was not found  " ObjectGUID="{6857edfb-e69b-4fea-ae78-57f0e5183e2b}" />
+    <Node Name="CountTrack" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **CountTrack**&#xD;&#xA;   | Counting inside on track, eg. empty links or packages without diversion or damage package inside a chain area &#xD;&#xA;  :return: calculated value  " ObjectGUID="{b908e8b0-008b-4f35-98f7-21d1180a89f9}" />
+    <Node Name="CountRow" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **CountRow**&#xD;&#xA;   | Counting value inside one row, eg. empty links or packages without diversion or damage package inside a chain area &#xD;&#xA;  :return: calculated value  " ObjectGUID="{029aefdb-6044-49df-84e6-2da3c9a1ac8d}" />
+    <Node Name="CountAll" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **CountAll**&#xD;&#xA;   | Counting of empty links or packages without diversion or damage package inside a chain area &#xD;&#xA;  :return: calculated value  " ObjectGUID="{46fc1d6d-98f2-4124-8362-c03e2e755077}" />
+    <Node Name="Count" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **Count**&#xD;&#xA;   | Counting of empty links or packages without diversion or damage package inside a chain area &#xD;&#xA;  :return: calculated value  " ObjectGUID="{69d9b460-e46e-451c-ae2e-c252573f9e18}" />
+    <Node Name="ChainLinks" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{99ebe422-c0ed-49e9-9a58-a259f1807eac}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{8cb56080-0b78-4fb3-9fe6-252ecdc2b0a5}" />
+    </Node>
+  </Node>
+  <Node Name="IF_Chain06" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IF_Chain05**&#xD;&#xA; The access to complete chain register is allowed  &#xD;&#xA; by this interface only&#xD;&#xA;&#xD;&#xA; .. note::&#xD;&#xA;    You have to use the global variable G_ifTheChain for access through the chain register&#xD;&#xA;" ObjectGUID="{616199b3-c152-4b59-b1c5-65cd8e6e5de4}">
+    <Node Name="Link03" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **Link02**&#xD;&#xA;  :return: Returns the complete interface |IF_ChainLink02| of one chain link" ObjectGUID="{b7efd07c-88ee-40b7-b55f-88f32837e908}" />
+  </Node>
+  <Node Name="IF_Chain05" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IF_Chain05**&#xD;&#xA; The access to complete chain register is allowed  &#xD;&#xA; by this interface only&#xD;&#xA;&#xD;&#xA; .. note::&#xD;&#xA;    You have to use the global variable G_ifTheChain for access through the chain register&#xD;&#xA;" ObjectGUID="{68bb8f4b-f1e2-4824-b4bf-b8c74f537c60}">
+    <Node Name="IsTrackOfGroupEmpty" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="**IsTrackOfGroupEmpty**&#xD;&#xA; :return: Returns TRUE if the chain group includes no Package" ObjectGUID="{e2f4ced4-9f29-451b-9751-2d706b7051ba}" />
+  </Node>
+  <Node Name="IF_Chain04" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IF_Chain03**&#xD;&#xA; The access to complete chain register is only allowed  &#xD;&#xA; by this interface&#xD;&#xA;&#xD;&#xA; .. note::&#xD;&#xA;    You have to use the global variable G_ifTheChain for access through the chain register&#xD;&#xA;" ObjectGUID="{e2b7e1ab-0176-471f-92a1-bee712b045d7}">
+    <Node Name="PackageDamage" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **PackageDamage**&#xD;&#xA;  :return: Returns true if a package in current cell is present and damage" ObjectGUID="{a9369787-d0d8-45c3-ae84-dd13b7347726}" />
+    <Node Name="Package" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **Package**&#xD;&#xA;  :return: Returns true if a package in current cell is present" ObjectGUID="{76e0699c-d2fb-4cbb-85d2-39c7b0fad416}" />
+  </Node>
+  <Node Name="IF_Chain03" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IF_Chain03**&#xD;&#xA; The access to complete chain register is only allowed  &#xD;&#xA; by this interface&#xD;&#xA;&#xD;&#xA; .. note::&#xD;&#xA;    You have to use the global variable G_ifTheChain for access through the chain register&#xD;&#xA;" ObjectGUID="{99024907-ee6a-4647-82cb-2ed7fe30e53a}">
+    <Node Name="ClearRow" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **ClearRow**&#xD;&#xA;   | Clear a complete row of register&#xD;&#xA;  :return: nothing" ObjectGUID="{9c2170a0-b8fe-4ecd-9af7-943b0a65d608}" />
+  </Node>
+  <Node Name="IF_Chain02" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IF_Chain01**&#xD;&#xA; The access to complete chain register is only allowed  &#xD;&#xA; by this interface&#xD;&#xA;&#xD;&#xA; .. note::&#xD;&#xA;    You have to use the global variable G_ifTheChain for access through the chain register&#xD;&#xA;" ObjectGUID="{899632a8-ad2d-42b8-bb78-c682c5ead7ce}">
+    <Node Name="Link02" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **Link02**&#xD;&#xA;  :return: Returns the complete interface |IF_ChainLink02| of one chain link" ObjectGUID="{85fb7497-f3c7-4c70-a682-a953dfd5461d}" />
+  </Node>
+  <Node Name="IF_Chain01" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IF_Chain01**&#xD;&#xA; The access to complete chain register is only allowed  &#xD;&#xA; by this interface&#xD;&#xA;&#xD;&#xA; .. note::&#xD;&#xA;    You have to use the global variable G_ifTheChain for access through the chain register&#xD;&#xA;" ObjectGUID="{a85d2839-7ea4-4983-ba27-d47bfc3838ce}">
+    <Node Name="Link01" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **Link01**&#xD;&#xA;  :return: Returns the complete interface |IF_ChainLink01| of one chain link" ObjectGUID="{caf4c58b-2880-44cc-8774-c6a120036474}" />
+  </Node>
+  <Node Name="IF_Chain" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IF_Chain**&#xD;&#xA; The access to complete chain register is only allowed  &#xD;&#xA; by this interface&#xD;&#xA;&#xD;&#xA; .. note::&#xD;&#xA;    You have to use the global variable G_ifTheChain for access through the chain register" ObjectGUID="{c3522455-0703-45d0-9be2-6258d1d932e9}">
+    <Node Name="VisUpdate" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="**VisUpdate**&#xD;&#xA;  | Update visualization" ObjectGUID="{910689a7-d142-4391-8c8e-b872755b8711}" />
+    <Node Name="ShiftChainGroup" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **ShiftChainGroup**&#xD;&#xA;  | Shifting a ``ChainGroup`` &#xD;&#xA; &#xD;&#xA;  :return: nothing" ObjectGUID="{78be4dfb-3ce8-49bf-8ea6-2564d179263f}" />
+    <Node Name="ShiftChain" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **ShiftChain**&#xD;&#xA;  | Shift the complete chain" ObjectGUID="{dc768d04-ff3d-45cb-b7f0-46972186ca70}" />
+    <Node Name="Link" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **Link**&#xD;&#xA;   | With this method you can take the interface to a single pocket link of the chain&#xD;&#xA;  :return: Returns the complete data of one chain link" ObjectGUID="{fddd7451-95b2-4e22-84a9-7a4a1cdf0760}" />
+    <Node Name="IsGroupEmpty" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="**IsGroupEmpty**&#xD;&#xA; :return: Returns TRUE if the chain group includes no Package" ObjectGUID="{a6973705-17ca-4b5e-ab34-0bc1511ba6ea}" />
+    <Node Name="IsEmpty" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{77a1fb4b-687c-4b61-8bda-534bac03734f}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{8b0a2cad-8164-439d-a6f7-acf79f31ee63}" />
+    </Node>
+    <Node Name="InitChain" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="**InitChain**&#xD;&#xA; | Initialization of chain register" ObjectGUID="{a500b66d-66fc-458b-ae80-ef7bc3c2c841}" />
+    <Node Name="CreateGroup" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **CreateGroup**&#xD;&#xA;  | Creates a new ``ChainGroup`` from complete chain&#xD;&#xA; &#xD;&#xA;  :return: Returns TRUE if the group was successfully created" ObjectGUID="{f75bbea6-2141-48be-9565-26e0ba6be0cf}" />
+    <Node Name="ClearAllContent" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **ClearAllContent**&#xD;&#xA;  | Remove all data from chainregister" ObjectGUID="{301cee42-3119-4d08-87c9-8ea61e4f6e44}" />
+    <Node Name="AnyPackage" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **AnyPackage**&#xD;&#xA;  :return: Returns true if any package in current row is present" ObjectGUID="{b5421822-4d75-4bd2-a7a8-64da0aae4680}" />
+  </Node>
+  <Node Name="ET_QueryMask" TypeGUID="{40989022-e4d2-4dc7-89d2-9a412930b20e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **ET_QueryMask**&#xD;&#xA;   | Query mask for count operations from chain register" ObjectGUID="{88d98fde-4b56-4c60-91a0-221ecb797fa6}" />
+  <Node Name="ERROR" TypeGUID="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{c43a505e-9fce-4e1e-91c1-056e133141c8}" />
+  <Node Name="License" TypeGUID="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="&#xD;&#xA;===========&#xD;&#xA;**License**&#xD;&#xA;===========&#xD;&#xA;**Copyright SIG Combibloc Systems GmbH 2016 All rights reserved.**&#xD;&#xA;&#xD;&#xA;Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of &#xD;&#xA;this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent &#xD;&#xA;possible under the law.&#xD;&#xA;" ObjectGUID="{daa1c489-7059-47dd-ac48-b36cf48ebe7e}" />
+  <Node Name="History" TypeGUID="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="&#xD;&#xA;.. list-table::&#xD;&#xA;   :widths: 15 25 30 100&#xD;&#xA;   :header-rows: 1&#xD;&#xA;   &#xD;&#xA;   * - Version&#xD;&#xA;     - YYYY-MM-DD&#xD;&#xA;     - changed BY&#xD;&#xA;     - Comment&#xD;&#xA;&#xD;&#xA;   * - 1.0.2.0&#xD;&#xA;   	 - 2018-08-18&#xD;&#xA;	 - Uwe Zell&#xD;&#xA;     - Add new Interface IF_ChainGroup01 and IF_Chain07&#xD;&#xA;     &#xD;&#xA;   * - 1.0.1.0&#xD;&#xA;   	 - 2018-05-28&#xD;&#xA;	 - Uwe Zell&#xD;&#xA;     - Add new Interface IF_ChainLink03 and IF_Chain06&#xD;&#xA;     &#xD;&#xA;   * - 1.0.0.0&#xD;&#xA;   	 - 2018-05-18&#xD;&#xA;	 - Uwe Zell&#xD;&#xA;     - * Update library for SoMM 44&#xD;&#xA;       * Update project information propert&#xD;&#xA;       &#xD;&#xA;   * - 0.0.2.8&#xD;&#xA;     - 2018-02-13&#xD;&#xA;     - Björn Lindenlauf&#xD;&#xA;     - Added: IF_Chain05; Method IsTrackOfGroupEmpty&#xD;&#xA;	 &#xD;&#xA;   * - 0.0.2.7&#xD;&#xA;     - 2017-02-15&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Fix: Interface inheritance of IF_Chain04 was IF_Chain02 instead IF_Chain03&#xD;&#xA;     &#xD;&#xA;   * - 0.0.2.6&#xD;&#xA;     - 2017-01-19&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Add Interface |IF_Chain04| with new methode &quot;Package&quot; and &quot;PackageDamage&quot;&#xD;&#xA;     &#xD;&#xA;   * - 0.0.2.5&#xD;&#xA;     - 2017-01-16&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Add Interface |IF_Chain03| with new methode &quot;ClearRow&quot;&#xD;&#xA;     &#xD;&#xA;   * - 0.0.2.4&#xD;&#xA;     - 2016-08-29&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - * Add Interface |IF_Diversion01| to handle multiple chain register&#xD;&#xA;       * Add Interface |IF_ChainLink02| to handle multiple chain register&#xD;&#xA;       * Add Interface |IF_Chain02| to handle multiple chain register&#xD;&#xA;     &#xD;&#xA;   * - 0.0.2.3&#xD;&#xA;     - 2016-08-16&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - * Implement all Interface from origin chain library&#xD;&#xA;       * Add Project specific base struct TypedChainData.ST_BASE_REG_CH from Placeholder TypedChainData &#xD;&#xA;     &#xD;&#xA;   * - 0.0.2.2&#xD;&#xA;     - 2016-05-27&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Exclude Projectinformations from build  &#xD;&#xA;     &#xD;&#xA;   * - 0.0.2.1&#xD;&#xA;     - 2016-04-03&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - New History table  &#xD;&#xA;	 &#xD;&#xA;   * - 0.0.2.0&#xD;&#xA;     - 2015-10-08&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Rename Placeholder and Namespace  &#xD;&#xA;	 &#xD;&#xA;   * - 0.0.1.1&#xD;&#xA;     - 2015-10-02&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - compiled with SOMM4.2  &#xD;&#xA;	 &#xD;&#xA;   * - 0.0.1.0&#xD;&#xA;     - 2015-09-27&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Initial version     &#xD;&#xA;" ObjectGUID="{8d9c6e38-fb79-48b9-b889-0e415e676bb3}" />
+  <Node Name="ST_REG_CH" TypeGUID="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **ST_REG_CH**&#xD;&#xA;&#xD;&#xA;  .. note::&#xD;&#xA;     This structure combines min required data element of the chain register" ObjectGUID="{9888f681-93e5-463d-8239-b133ac1ba407}" />
+  <Node Name="IsLibReleased" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" This function has been automatically generated from the project information." ObjectGUID="{445d2b8e-e5c5-54ec-8b5c-0abf82faae3a}" />
+  <Node Name="GetLibVersionNumber" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" This function has been automatically generated from the project information." ObjectGUID="{e5561e6b-e4a3-52c2-afe2-127b8d3ac083}" />
+  <Node Name="GetLibVersion" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" This function has been automatically generated from the project information." ObjectGUID="{d754badd-b8c8-5d3b-840b-2496c8e67b65}" />
+  <Node Name="Interface" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{086a4b20-b259-4902-9ba1-1c87e6e8a9b5}" />
+  <Node Name="Enums" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{d53bc083-e605-4995-83a3-a94382ab23f1}" />
+  <Node Name="Documentation" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{1fe4873c-41df-4cea-a920-0f78070559b3}" />
+  <Node Name="DUT" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{80dff9ed-59e2-41d9-829c-f2ef2b8e83ea}" />
+  <Node Name="Project Settings" TypeGUID="{8753fe6f-4a22-4320-8103-e553c4fc8e04}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{6470a90f-b7cb-43ac-9ae5-94b2338b4573}" />
+  <Node Name="Project Information" TypeGUID="{085afe48-c5d8-4ea5-ab0d-b35701fa6009}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{11c0fc3a-9bcf-4dd8-ac38-efb93363e521}" />
+  <Node Name="MainMachine" TypeGUID="{d9e0ee7d-11e9-43db-812e-e077e20a2c21}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{aa3e3aa9-6d7f-42c9-8dd6-f927cebf0539}" />
+  <Node Name="MainMachine" TypeGUID="{8daf39e2-702f-44f0-9748-78a308713f47}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{6b72c79e-8941-47d7-b531-87ea41758d29}" />
+  <Node Name="MainMachine" TypeGUID="{c13bac8e-5ab2-4571-a9c3-4eac8da2c1e2}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{8b9b76d7-3558-4fa7-b4dd-2f85291cb74e}" />
+  <Node Name="Library Information" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{c8706b13-1f28-4097-8c35-c12aa6824251}" />
+  <Node Name="ChainRegister" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{662bfbce-9b50-4956-b567-9e4692bd373f}" />
+  <Node Name="Bibliotheksverwalter" TypeGUID="{adb5cb65-8e1d-4a00-b70a-375ea27582f3}" EmbeddedTypeGUIDs="" ObjectGUID="{07e9df10-1d12-443e-be0e-844c729b94e7}" />
+</Library>

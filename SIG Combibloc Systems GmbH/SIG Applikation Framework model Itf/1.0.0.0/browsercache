@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library Name="SIG Applikation Framework model Itf, 1.0.0.0 (SIG Combibloc Systems GmbH)">
+  <Node Name="IF_TypedTree01" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{72194b69-5fca-4ffe-9353-f74d2112ed6c}">
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{105d8868-d2b7-4b22-aa7a-802e1537a9dc}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{fc8e5d7c-e22b-44e2-be7d-7fd528aadb72}" />
+    </Node>
+    <Node Name="Dispose" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **Dispose**&#xD;&#xA;  | Dispose the element from heap" ObjectGUID="{824e2416-da36-4d33-b701-63bd7886ff9e}" />
+  </Node>
+  <Node Name="IF_TypedTree" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{a3b4f505-057b-402f-8c78-1ef9f48551e0}">
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{6318da7f-98ec-4e77-bf3a-088235b1e9c7}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b415698d-defd-451a-b83e-65d685bf57f9}" />
+    </Node>
+    <Node Name="AddLinkableObject" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **AddLinkableObject**&#xD;&#xA; Append an linkable generic object to tree" ObjectGUID="{acbbdc16-68b1-498b-ae66-e251f59a9cdb}" />
+  </Node>
+  <Node Name="IF_Tree" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{dc3eb6d9-39b5-4c51-be23-cdd0cde55d3b}">
+    <Node Name="TypedTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{2bf56df7-372b-4cf2-8a07-177be97d2754}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{4d6b341b-74a2-4263-8a62-08d21a59528b}" />
+    </Node>
+    <Node Name="SiblingCount" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{cd6efcee-8596-46a3-8613-987d301fda9b}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{86f584b6-7c55-4701-b797-bbf44c2a278a}" />
+    </Node>
+    <Node Name="RootTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{82eebfd4-0efd-4ac9-99a2-d4c7edb43bb5}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{11fc0b53-1a4e-4cd2-b2e5-9a8fadb85cfb}" />
+    </Node>
+    <Node Name="RemoveTree" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{ef7eb5a8-4192-4f1c-84c1-291f6de3232d}" />
+    <Node Name="PrevSibling" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{fc1350b2-dfec-425e-a8d1-48ced0808e0b}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{c03f1685-3b07-410a-8d27-6592a665680f}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{aab346e7-1b16-48f2-a643-de359bf5ec7b}" />
+    </Node>
+    <Node Name="ParentTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{1c1e6597-b637-47c2-9d97-7f9f267c16b1}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{131e0170-8dc6-47b2-a373-73af821bfa2e}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d9e9ac29-46e1-4d49-93dd-2d248984d844}" />
+    </Node>
+    <Node Name="NextSibling" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b1b4317b-0d7a-419b-9498-a79819d63681}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{05edc3d6-fc24-446f-b0b5-8329ca73617e}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{db1e09a1-e3c9-4f62-9b9f-b9981296e397}" />
+    </Node>
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{e1f8e009-5131-47d7-9a5b-79b1c8b363da}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d360ce90-b205-4a66-826c-d4fb78916769}" />
+    </Node>
+    <Node Name="LastChild" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{f6c92da5-2ea6-470b-ad2e-ca7f7ed7dc93}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{1d2be5a5-6452-48c0-9cba-cf55a9623709}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{ec429fb2-ab55-4f45-abd1-83d205ffa183}" />
+    </Node>
+    <Node Name="IsTreeRoot" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{a8e19ae6-ad43-4f56-93a2-b0fd6530c150}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{90da1d77-141c-43f7-adc5-438642d01235}" />
+    </Node>
+    <Node Name="IsLinkedTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{c54bff43-d55e-4adf-a8b5-a093fc6de2b2}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{46398585-ce69-4ce1-90a0-74b803fd0aa7}" />
+    </Node>
+    <Node Name="InsertSibling" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{65c1293e-8644-4bda-9f5a-8d34ca5577a3}" />
+    <Node Name="FirstChild" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{e882448c-0f37-412a-a790-4f77385ce0c1}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{152edbe9-9b53-4f57-957b-02a1259276f7}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{8519dc3e-56d2-4306-80ae-20eef9aa5983}" />
+    </Node>
+    <Node Name="ChildCount" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{2a2b9582-6f3a-45a4-8317-22acd85e96ff}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{ec938c61-d8b7-4e4e-a8b4-da001763e8ef}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{88cf8525-7d00-4219-9298-df609f1ff900}" />
+    </Node>
+    <Node Name="AddChild" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{cdeeb3c2-d357-44ea-887a-b83902073b16}" />
+  </Node>
+  <Node Name="IF_LinkableTree" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IF_BaseElementObject**&#xD;&#xA; Base element " ObjectGUID="{7f363b7f-5530-4153-af64-5f882ff7e220}">
+    <Node Name="TypedTree" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{7b632f99-8c7f-475a-ba51-e2407707fba3}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{a6f5f33a-d35d-4650-8142-866483e8c527}" />
+    </Node>
+  </Node>
+  <Node Name="IF_TypedList03" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{64dc3d8b-7352-445b-9df5-07c8615300fd}">
+    <Node Name="RegisterObject" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **RegisterObject**" ObjectGUID="{c0d19e08-80ba-4802-ac9f-06979582e852}" />
+    <Node Name="DeRegisterObject" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **DeRegisterObject**" ObjectGUID="{864e6abc-a3a1-4357-a37b-f752dc719258}" />
+  </Node>
+  <Node Name="IF_TypedList02" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{9579c077-c551-4710-9cbd-624e93722ef3}">
+    <Node Name="Dispose" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **Dispose**&#xD;&#xA;  | Dispose the element from heap" ObjectGUID="{edb8b8d1-f82b-4149-a7b4-db7e21d2c746}" />
+  </Node>
+  <Node Name="IF_TypedList01" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{7d3d87bd-1d73-4e04-9a4c-5b6386197b70}">
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{0bc08534-163b-4df6-9455-535cbd0a2d5d}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{79f3b808-f9ba-4601-bfcd-0360ef1299cb}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{ece91824-fc76-4712-af13-2dd11e1a2985}" />
+    </Node>
+  </Node>
+  <Node Name="IF_TypedList" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d59d90db-ac32-44fc-990a-ea0b2428ffc0}">
+    <Node Name="RemoveLinkableObject" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **RemoveLinkableObject**&#xD;&#xA; Remove the element referenced by itfElement from the list" ObjectGUID="{2dc20cea-0ea9-4f18-9f71-ccf6b87ee91b}" />
+    <Node Name="List" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{f6ef372e-99a8-43d7-a83f-4f0c3544490e}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{3c1d89c5-57dc-4e3b-844b-915fc990b47e}" />
+    </Node>
+    <Node Name="AppendLinkableObject" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **AppendLinkableObject**&#xD;&#xA; Append the element referenced by itfElement at the end of the list" ObjectGUID="{e1f65fef-05c9-42e7-8836-35846b6f792b}" />
+  </Node>
+  <Node Name="IF_TypedElement02" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b14f26fd-b20f-4381-ba04-178579c13069}">
+    <Node Name="UpdateOnlineChange" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **UpdateOnlineChange**&#xD;&#xA;   | This method is called from the system during the online change&#xD;&#xA;     :return: Returns True if the prepration was done sucessfully" ObjectGUID="{4664a391-c438-43c9-a274-c5c835d0eedf}" />
+    <Node Name="CheckParent" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **CheckParent**&#xD;&#xA;  | Check parent object where the element is linked to&#xD;&#xA;    :return: Returns True if a register or degregister operation was active" ObjectGUID="{7c8c363a-94d2-4db1-a606-dc81b6759cff}" />
+    <Node Name="BeforeOnlineChange" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **BeforeOnlineChange**&#xD;&#xA;   | This method should be called from FB_Exit event to prepare the element before the online change&#xD;&#xA;     :return: Returns True if the prepration was done sucessfully" ObjectGUID="{b197393c-e555-4c7e-b31f-e3c089495247}" />
+  </Node>
+  <Node Name="IF_TypedElement01" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{f61c1b02-6bcf-4441-83a5-ffa096efe2d8}">
+    <Node Name="Dispose" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **Dispose**&#xD;&#xA;  | Dispose the element from heap" ObjectGUID="{fd5e9b98-1461-4121-8cff-1a30910b3e37}" />
+  </Node>
+  <Node Name="IF_TypedElement" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{9cc1b839-d4a8-4d40-a372-173d4f707957}">
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{1f8472cb-479c-4086-b5ca-855ecf407a6c}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{c7eccf61-062c-4e81-a25e-08bb9b3d7adc}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{0bdff64d-062f-4619-bf23-024568cba4b4}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ObjectLinkProtocol01" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IF_ObjectLinkProtocol01**&#xD;&#xA; Interface for linkabel object's element, Returns the typed list as property " ObjectGUID="{56b7c89a-a105-4aa9-9d1e-3f4636fc5992}">
+    <Node Name="TypedList" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{c698e31f-09ae-471b-ae10-36fb45db3e63}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{3f2bbd34-c4b5-494d-b962-9ad837fd3c60}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ObjectLinkProtocol" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IF_ObjectLinkProtocol**&#xD;&#xA; Interface for linkabel object's element " ObjectGUID="{76d92780-53d5-4424-a442-556e6bb05878}">
+    <Node Name="RegisterObject" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **RegisterObject**" ObjectGUID="{f50018c9-35c3-496f-862b-d87b5323b5ee}" />
+    <Node Name="DeRegisterObject" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **DeRegisterObject**" ObjectGUID="{83e165c4-09d5-4314-b374-d48d5bb202ce}" />
+  </Node>
+  <Node Name="IF_Linkable01" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IF_Linkable01**&#xD;&#xA; Interface for linkabel object's element " ObjectGUID="{a0363d68-2db1-4c3d-8e34-92e0ce34a4ce}">
+    <Node Name="UpdateOnlineChange" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **UpdateOnlineChange**&#xD;&#xA;   | This method is called from the system during the online change&#xD;&#xA;     :return: Returns True if the prepration was done sucessfully" ObjectGUID="{f97f4d8d-9ab6-4476-8788-a60b31de9465}" />
+    <Node Name="CheckParent" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **CheckParent**&#xD;&#xA;  | Check parent object where the element is linked to&#xD;&#xA;    :return: Returns True if a register or degregister operation was active" ObjectGUID="{831829c8-7462-44aa-9298-186803d664cf}" />
+    <Node Name="BeforeOnlineChange" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **BeforeOnlineChange**&#xD;&#xA;   | This method should be called from FB_Exit event to prepare the element before the online change&#xD;&#xA;     :return: Returns True if the prepration was done sucessfully" ObjectGUID="{d64d00f6-30c2-45d6-b89c-ee6edbb7b69a}" />
+  </Node>
+  <Node Name="IF_Linkable" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **IF_Linkable**&#xD;&#xA; Interface for linkabel object's element " ObjectGUID="{d3ae7cc1-b48a-4408-8a7d-d4b9ccc0771d}">
+    <Node Name="TypedElement" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{29a44ebc-e801-4ddd-8af3-13fe6047d40e}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{5102f99a-bc41-41bf-affc-5cc10dcf0474}" />
+    </Node>
+  </Node>
+  <Node Name="IF_List01" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{9c789097-a06c-4c31-9487-64f46551f613}">
+    <Node Name="Clear" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **Clear**&#xD;&#xA;  | Clear all elements from list&#xD;&#xA;    :return: Returns True if the list is empty" ObjectGUID="{5174e55c-0bd5-46ef-ae68-cd525c760805}" />
+  </Node>
+  <Node Name="IF_List" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{4aa80c00-ad2a-409f-9473-ccf23741e829}">
+    <Node Name="TailElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{5963e766-b5d4-4f2f-8aab-c267d3448b6a}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{0fa85ff5-7fe6-4060-baa1-31a00b8ad636}" />
+    </Node>
+    <Node Name="RemoveElem" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" Remove the element referenced by itfElement from the end of the list.&#xD;&#xA; Is the element successfully removed the result value is itfElement otherwise zero" ObjectGUID="{e4eb448f-87d8-460a-b3db-9dab40f1be6f}" />
+    <Node Name="PushElem" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{5af17304-d945-43b0-ae6b-98bf72057413}" />
+    <Node Name="PopElem" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{869d98c1-6176-408b-8187-64911d9b99a4}" />
+    <Node Name="PopBackElem" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{656c2bb9-b085-4a9e-8741-99e52d145391}" />
+    <Node Name="ListSize" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{08527f55-42cf-420d-b8b7-be6148992224}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{1b242482-6491-4c29-afce-7d67f821d532}" />
+    </Node>
+    <Node Name="ListIsEmpty" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{1d5ea654-438b-4f6a-9b0f-d620bc2208da}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d0d848bb-85c4-45ea-8dd3-0bc8030336e1}" />
+    </Node>
+    <Node Name="InsertElem" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{46bf4680-93e7-418b-9dbc-034bff477a18}" />
+    <Node Name="HeadElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{800dd84d-4146-4d25-a50e-307b6d3b011c}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b818f699-ead4-4a4b-bea0-2e02c8515956}" />
+    </Node>
+    <Node Name="AppendElem" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" Append the element referenced by itfElement at the end of the list" ObjectGUID="{1f7d4d4e-8dfb-4330-8597-5a230e07eabb}" />
+  </Node>
+  <Node Name="IF_Element" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{c69d5e55-347c-4f66-a4a7-ef75f58ffb86}">
+    <Node Name="TypedElement" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{9067a5f3-681c-45e1-979d-43a68af3732f}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{55f1e327-a8ef-4fe1-abca-84dacbe0b65c}" />
+    </Node>
+    <Node Name="RemoveElem" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d761aef2-00fc-4c5e-87ec-291a4a8d56ad}" />
+    <Node Name="PrevElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{a1b9e27b-f4d7-47a8-b5db-72eaf64e3fe8}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{15aef033-fdab-443b-bba5-8cb686ccb41e}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{83e3f80f-7fab-49d1-80b2-14e2d82b3264}" />
+    </Node>
+    <Node Name="NextElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{20966dd0-a286-4776-ba3a-16863e14849c}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{0bf2af2b-ccc8-49d4-8f88-0468ff7c1f50}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b7d9d5f5-d8e4-4e63-ab7d-cc5e8773f795}" />
+    </Node>
+    <Node Name="List" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{f459dd6e-d9dc-4c9c-b9e5-559aef9d190e}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{afce86ae-a423-46e6-a163-f65c8744a239}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{463f6dd4-f515-4c9b-8c4f-844c09a636cd}" />
+    </Node>
+    <Node Name="LinkedObject" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{f424a6f7-0988-4666-a0c1-4560d3adf605}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{5d91f306-88c6-4649-b984-8977c9cf4dbf}" />
+    </Node>
+    <Node Name="IsListMemberOf" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{eaed0136-df52-4466-b5b6-4e18b1128b5f}" />
+    <Node Name="IsLinkedElem" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{c059a901-ac4a-4fc4-ad60-7f463bd15793}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{3859ae02-eed4-4c1a-a965-b695fac79e66}" />
+    </Node>
+  </Node>
+  <Node Name="Tree" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{5caf3a49-19a7-44a8-ab09-960f0df01ce0}" />
+  <Node Name="ObjectLink" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{8eb84862-2267-4e44-ae82-4bc6a34bd01a}" />
+  <Node Name="Element" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{8f77819e-1617-4a76-9ce7-b5bdae447a5e}" />
+  <Node Name="ERROR" TypeGUID="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="{attribute 'conditionalshow' := 'SomeText'}&#xD;&#xA;{attribute 'conditionalshow'}&#xD;&#xA;{attribute 'hide'}" ObjectGUID="{f13851e4-c15c-4448-a3cc-5ae43fe11b73}" />
+  <Node Name="History" TypeGUID="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="&#xD;&#xA;.. list-table::&#xD;&#xA;   :widths: 15 25 30 100&#xD;&#xA;   :header-rows: 1&#xD;&#xA;   &#xD;&#xA;  &#xD;&#xA;   * - Version&#xD;&#xA;     - YYYY-MM-DD&#xD;&#xA;     - changed BY&#xD;&#xA;     - Comment&#xD;&#xA;&#xD;&#xA;   * - 1.0.0.0&#xD;&#xA;   	 - 2018-05-18&#xD;&#xA;	 - Uwe Zell&#xD;&#xA;     - * Update library for SoMM 44&#xD;&#xA;       * Update project information property&#xD;&#xA;     &#xD;&#xA;   * - 0.0.3.14&#xD;&#xA;	 - 2018-04-20&#xD;&#xA;	 - Uwe Zell&#xD;&#xA;     - Correct Version number&#xD;&#xA;       &#xD;&#xA;   * - 0.0.3.13&#xD;&#xA;	 - 2018-04-15&#xD;&#xA;	 - Uwe Zell&#xD;&#xA;     - New Interface |IF_Linkable01|, |IF_TypedElement02| and |IF_TypedList03|&#xD;&#xA;       This new interface can be used to harmonize the code constructions &#xD;&#xA;       in linking operations&#xD;&#xA;       &#xD;&#xA;   * - 0.0.3.12&#xD;&#xA;	 - 2016-06-01&#xD;&#xA;	 - Shivaram Kumar&#xD;&#xA;     - * IsInterfaceLibrary property -&gt; True&#xD;&#xA;	   * Project Information exclude from build	 &#xD;&#xA;	&#xD;&#xA;   * - 0.0.3.11&#xD;&#xA;	 - 2016-05-24&#xD;&#xA;	 - Shivaram Kumar&#xD;&#xA;     - * Automatically generate POUs for property access&#xD;&#xA;	   * IsInterfaceLibrary property -&gt; False 	 &#xD;&#xA;&#xD;&#xA;   * - 0.0.3.10&#xD;&#xA;     - 2016-05-04&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - test commit  &#xD;&#xA;     &#xD;&#xA;   * - 0.0.3.9&#xD;&#xA;     - 2016-05-04&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Implementation |IF_List01|, new methode to clear the list  &#xD;&#xA;&#xD;&#xA;   * - 0.0.3.8&#xD;&#xA;     - 2016-04-28&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Implementation |IF_TypedTree01| for factory methods  &#xD;&#xA;     &#xD;&#xA;   * - 0.0.3.7&#xD;&#xA;     - 2016-04-26&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Compiled with SOMM4.3  &#xD;&#xA;&#xD;&#xA;   * - 0.0.3.6&#xD;&#xA;     - 2016-04-12&#xD;&#xA;     - Michael Roesseler&#xD;&#xA;     - .. Note::&#xD;&#xA;          Removed Placeholder to allow *-Mechanism in upper layer&#xD;&#xA;  &#xD;&#xA;   * - 0.0.3.5&#xD;&#xA;     - 2016-03-31&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - .. Note::&#xD;&#xA;          Add new Interface with **Dispose** method to followed interface:&#xD;&#xA;           * |IF_TypedElement| to |IF_TypedElement01|&#xD;&#xA;           * |IF_TypedList01| to |IF_TypedList02|&#xD;&#xA;	 &#xD;&#xA;   * - 0.0.3.4&#xD;&#xA;     - 2016-03-15&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Initial version&#xD;&#xA;" ObjectGUID="{8d9c6e38-fb79-48b9-b889-0e415e676bb3}" />
+  <Node Name="Types" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{733deadb-ae48-45b3-af8d-6d477978535c}" />
+  <Node Name="Structs" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{53484896-97ba-4b83-97bd-f70950095926}" />
+  <Node Name="Interfaces" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{c2fd0448-2df6-4d08-a877-3e57ebde9842}" />
+  <Node Name="GlobalConstants" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{c7dbe0db-e4b7-4ad4-a8e9-a965e037c1d2}" />
+  <Node Name="Enums" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{d53bc083-e605-4995-83a3-a94382ab23f1}" />
+  <Node Name="Documentation" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{1fe4873c-41df-4cea-a920-0f78070559b3}" />
+  <Node Name="Project Settings" TypeGUID="{8753fe6f-4a22-4320-8103-e553c4fc8e04}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{6470a90f-b7cb-43ac-9ae5-94b2338b4573}" />
+  <Node Name="Project Information" TypeGUID="{085afe48-c5d8-4ea5-ab0d-b35701fa6009}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{11c0fc3a-9bcf-4dd8-ac38-efb93363e521}" />
+  <Node Name="Library Manager" TypeGUID="{adb5cb65-8e1d-4a00-b70a-375ea27582f3}" EmbeddedTypeGUIDs="" ObjectGUID="{8c1463b5-02f2-427d-bd06-9e39d42fcbff}" />
+  <Node Name="ApplicationFramework" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{b9741afd-ccd3-4994-99f4-7d8a942952f6}" />
+  <Node Name="00000000-0000-0000-0000-000000000000|D:\CoDeSys\LibrariesV3\trunk\Intern\CAA\CAA Template\3.4.0.0 draft\Placeholder.xml" TypeGUID="{9001d745-b9c5-4d77-90b7-b29c3f77a23b}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{5eef32c3-f0f3-4ec8-8b19-c6fda6dcba39}" />
+  <Node Name="00000000-0000-0000-0000-000000000000|D:\CoDeSys\LibrariesV3\trunk\Intern\CAA\CAA Template\3.2.0.3 draft\Prefix.pdf" TypeGUID="{9001d745-b9c5-4d77-90b7-b29c3f77a23b}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{eb5edfb0-5276-4130-9805-e0374d98bd90}" />
+</Library>

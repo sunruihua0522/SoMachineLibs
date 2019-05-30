@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library Name="SIG Standard exception itf, 1.0.0.0 (SIG Combibloc Systems GmbH)">
+  <Node Name="IsLibReleased" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" This function has been automatically generated from the project information." ObjectGUID="{445d2b8e-e5c5-54ec-8b5c-0abf82faae3a}" />
+  <Node Name="GetLibVersionNumber" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" This function has been automatically generated from the project information." ObjectGUID="{e5561e6b-e4a3-52c2-afe2-127b8d3ac083}" />
+  <Node Name="GetLibVersion" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Comment=" This function has been automatically generated from the project information." ObjectGUID="{d754badd-b8c8-5d3b-840b-2496c8e67b65}" />
+  <Node Name="IF_ExceptionSIG03" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{ced99c53-d89b-48be-b310-3774bd6ea380}">
+    <Node Name="ElapsedTime" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{ea34306d-c3ed-4727-aeb9-f6c02cf2ba78}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{5390f2e0-124e-4f60-9338-ecfc8da0a0d0}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ExceptionSIG02" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{fe872b98-b084-4fa0-81f2-6ade690d48dd}">
+    <Node Name="DiagExt" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{5b983aeb-c72f-4bea-bae2-2c5b97785c33}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{a696f351-f159-499c-9c6f-0fb942aa983b}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ExceptionSIG01" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{7a01ee6c-5625-4333-8991-22670d09356c}">
+    <Node Name="SetExceptionWithParameter" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="**SetExceptionWithParameter**&#xD;&#xA;  | Set exception with additinal Parameter&#xD;&#xA;  :return: Returns true if the Exception is active" ObjectGUID="{06c83df8-16dc-4761-ba2a-6aaf319dd82d}" />
+  </Node>
+  <Node Name="IF_ExceptionSIG" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{078c47a3-ae7c-4478-8997-3a5b7176318c}">
+    <Node Name="SetException" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{2ee6e31e-8726-45c7-bae5-100747a6df8e}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b27982a8-4709-4bd8-ae3f-1050bdc648fe}" />
+    </Node>
+    <Node Name="SetEventDelegate" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{71541cb6-fdc0-4b52-a770-a08aff9fedf4}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{5fd9577e-7fa5-4a77-91d6-09893e8fdd06}" />
+    </Node>
+    <Node Name="ReactionInList" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **ReactionInList**&#xD;&#xA; Check if this exception is present in exceptionlist &quot;iq_stExceptionList&quot; &#xD;&#xA; :return: TRUE if exception is present in list" ObjectGUID="{6d7cc9d4-8afd-4800-915a-a7cb5f98be8b}" />
+    <Node Name="QErrVisActive" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{466d9cc8-2945-48c9-81c6-06e51ea99ce8}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{027c47c7-e391-4d51-a81d-dd2fb910a853}" />
+    </Node>
+    <Node Name="QErrActive" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{0dbe295c-87f5-4e88-8253-c444064c45a3}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{19d5cbec-12ed-495c-98e1-43d776b13d97}" />
+    </Node>
+    <Node Name="GetResult" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **GetResult**  &#xD;&#xA; :return: The current result of exception" ObjectGUID="{33661c2c-6f5b-4b8e-90d5-3671fd55d4da}" />
+    <Node Name="GetInitParameter" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{0478d186-d130-4189-84de-9d5a8131f42e}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" IsHidden="true" ObjectGUID="{bd33b75e-ddb3-4e8a-af8a-0bc054386ae8}" />
+    </Node>
+    <Node Name="DisableException" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{542be907-d492-4535-906a-cdda9607aeea}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{29fe8271-a16f-4d58-ad8e-365a5af885dd}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{a22475f3-80bc-4cf8-8ab2-df1b6cccae7b}" />
+    </Node>
+    <Node Name="DiagExt" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d7abfc48-9a90-4e7d-85f5-d10996c3ec00}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{ac2afdc3-fcfa-488b-bed0-9287324bd874}" />
+    </Node>
+    <Node Name="AutoQuit" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{f4eed63d-47b4-4b75-b86d-02ed08827d8b}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{69d34bcd-b7c9-43ce-94c0-e20b273e89c1}" />
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{875cb5a8-5787-4012-a0a9-849e1a1ff184}" />
+    </Node>
+    <Node Name="AddExceptionText" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{aa704617-4f6e-4e00-a1f1-ba69ee52a35d}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{907a504a-a208-4968-a850-5ba0add04590}" />
+    </Node>
+    <Node Name="AddExceptionID1" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{43c1838b-d5ee-4233-a507-8cc30879b24e}">
+      <Node Name="Set" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{73180c15-3b24-4a59-ae5a-5c8d56190f16}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ExceptionInfo02" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{444f7137-abb8-4537-8315-c9cf7dae1f9d}">
+    <Node Name="SetExceptionActive" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{856b3160-6fbd-471d-8711-461b97032a78}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{22f68795-3450-4b39-95e8-566529c5df88}" />
+    </Node>
+    <Node Name="ElapsedTime" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{facc7ea2-fc85-4651-b8b1-845969956cae}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{99e9f805-323a-4b82-ba7a-1e7c8128aa94}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ExceptionInfo01" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{94ea9d48-1284-479f-af66-afba31496935}">
+    <Node Name="ID" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{f3cac22e-11a3-4bb5-814e-5cc86d686bed}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b909461b-5283-4e3d-8405-b6ae705bde1c}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ExceptionInfo" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{98993f7d-e801-4ddb-be6c-9a9f2278db8a}">
+    <Node Name="QErrVisActive" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{d197e397-05cf-4ad0-bad8-66b30350bd90}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{0a099438-82f8-4a5a-b716-6b20116247ab}" />
+    </Node>
+    <Node Name="QErrActive" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{30f336f7-6ade-4a17-8e85-6e96693f12cd}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{b9c6b2d9-47be-4984-abf5-3ee787d1b38c}" />
+    </Node>
+    <Node Name="DisableException" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{ca9f8d59-207e-4adf-b594-33278a53928a}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{9eb21519-38d9-42ea-96f4-843a4c39a7ba}" />
+    </Node>
+    <Node Name="AutoQuit" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{c8842071-b2bc-4799-b52d-897e5f158828}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{3f21fa13-06e2-4e34-bdd3-1ca7d01109ec}" />
+    </Node>
+  </Node>
+  <Node Name="IF_ExceptionEvents" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{10e528ff-bc85-45b4-8812-bcba54fd7157}">
+    <Node Name="QuittHMI" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **QuittHMI**&#xD;&#xA; This method is called for one time if the exception gone at hmi&#xD;&#xA; Has to be overloaded from extended project version of FB_ExceptionSIG  &#xD;&#xA; :return: Nothing" ObjectGUID="{859b3ac4-949f-4363-90a4-2621297be6b3}" />
+    <Node Name="Notify" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **Notify**&#xD;&#xA; This method is called if exception is becoming active&#xD;&#xA; for only one time&#xD;&#xA; Has to be overloaded from extended project version of FB_ExceptionSIG  &#xD;&#xA; :return: Nothing" ObjectGUID="{d9517111-59e6-42ec-b3fe-3f1555fe550e}" />
+    <Node Name="Gone" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **Gone**&#xD;&#xA; This method is called for one time if the exception gone&#xD;&#xA; Has to be overloaded from extended project version of FB_ExceptionSIG  &#xD;&#xA; :return: Nothing" ObjectGUID="{b1efb096-22f2-4bf3-aae2-4e0e9617d1fb}" />
+    <Node Name="CatchException" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment=" **CatchException**&#xD;&#xA; This method is called if exception is active&#xD;&#xA; Has to be overloaded from extended project version of FB_ExceptionSIG  &#xD;&#xA; :return: Nothing" ObjectGUID="{37f33352-cb65-4c72-8889-65392c6a64ae}" />
+  </Node>
+  <Node Name="IF_ExceptionBaseObj" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{f137e37e-d440-4713-8e36-246f24003f2c}">
+    <Node Name="udiNumberOfExceptions" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{2ffe99aa-7264-4796-987a-222edb6002a3}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{2a8c62d8-b9bd-4852-82ff-4b06308ae6f3}" />
+    </Node>
+    <Node Name="udiNumberOfActiveExceptions" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{a94f33a5-6c4d-4fee-a0cb-6c00aab90b2b}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{59832395-c933-4519-a26e-91d2ffcebe22}" />
+    </Node>
+    <Node Name="stGetFirstModuleException" TypeGUID="{5a3b8626-d3e9-4f37-98b5-66420063d91e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{bc8d49d3-02c6-423c-a3aa-e7ace3c0d6a7}">
+      <Node Name="Get" TypeGUID="{28747452-a93d-4b34-8d05-d2c6018edd7d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{368da7a4-4335-4d31-a003-ebda91ecf22c}" />
+    </Node>
+  </Node>
+  <Node Name="License" TypeGUID="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="&#xD;&#xA;===========&#xD;&#xA;**License**&#xD;&#xA;===========&#xD;&#xA;**Copyright SIG Combibloc Systems GmbH 2016 All rights reserved.**&#xD;&#xA;&#xD;&#xA;Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of &#xD;&#xA;this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent &#xD;&#xA;possible under the law.&#xD;&#xA;" ObjectGUID="{fce169e7-1db9-402b-8b27-aef83a9162d6}" />
+  <Node Name="History" TypeGUID="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Comment="&#xD;&#xA;===========&#xD;&#xA;**History**&#xD;&#xA;===========&#xD;&#xA;&#xD;&#xA;.. list-table::&#xD;&#xA;   :widths: 15 25 30 100&#xD;&#xA;   :header-rows: 1&#xD;&#xA;&#xD;&#xA;   * - Version&#xD;&#xA;     - YYYY-MM-DD&#xD;&#xA;     - changed BY&#xD;&#xA;     - Comment&#xD;&#xA; &#xD;&#xA;   * - 1.0.0.0&#xD;&#xA;   	 - 2018-05-18&#xD;&#xA;	 - Uwe Zell&#xD;&#xA;     - * Update library for SoMM 44&#xD;&#xA;       * Update project information property&#xD;&#xA;	   &#xD;&#xA;   * - 0.0.13.18&#xD;&#xA;     - 2017-04-04&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Add new interface IF_ExceptionInfo02. Returns the last result of Setexception and the elapsed time since set exception is active&#xD;&#xA;     &#xD;&#xA;   * - 0.0.13.17&#xD;&#xA;     - 2016-12-02&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Add new interface IF_ExceptionInfo01. Returns the udiDiagExt from Exception&#xD;&#xA;     &#xD;&#xA;   * - 0.0.13.16&#xD;&#xA;     - 2016-09-12&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Add new interface |IF_ExceptionSIG03|. Return the time since &quot;SetException&quot; is set to TRUE&#xD;&#xA;     &#xD;&#xA;   * - 0.0.13.15&#xD;&#xA;     - 2016-06-23&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Add new interface |IF_ExceptionSIG02|. This includes a getter operation to Property DiagExt &#xD;&#xA;&#xD;&#xA;   * - 0.0.13.14&#xD;&#xA;     - 2016-05-25&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Disable Project informations from build  &#xD;&#xA;     &#xD;&#xA;   * - 0.0.13.13&#xD;&#xA;     - 2016-05-24&#xD;&#xA;     - Shivaram Kumar&#xD;&#xA;     - Automatic Generation of POUs checkbox set  &#xD;&#xA;	 &#xD;&#xA;   * - 0.0.13.12&#xD;&#xA;     - 2016-04-26&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Compiled with SOMM4.3, Add new Interface IF_ExceptionSIG01  &#xD;&#xA;     &#xD;&#xA;   * - 0.0.13.11&#xD;&#xA;     - 2016-02-10&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Set Number of reactions to 128&#xD;&#xA;       &#xD;&#xA;   * - 0.0.13.10&#xD;&#xA;     - 2015-10-08&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Implement reduced Exceptioninterface IF_ExceptionInfoSIG&#xD;&#xA;       for global ready only access&#xD;&#xA;       &#xD;&#xA;   * - 0.0.13.9&#xD;&#xA;     - 2015-09-17&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Compile with version SOMM 4.2&#xD;&#xA;&#xD;&#xA;   * - 0.0.13.7&#xD;&#xA;     - 2015-09-10&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - Add new interface property to set DiagExt, implementation of placeholder&#xD;&#xA;     &#xD;&#xA;   * - 0.0.13.6&#xD;&#xA;     - 2015-09-10&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - * Add new interface IF_ExceptionEvents to manage external event handler&#xD;&#xA;       * Add new property to IF_ExceptionSIG manage external event delegate&#xD;&#xA;       &#xD;&#xA;   * - 0.0.13.5&#xD;&#xA;     - 2015-09-10&#xD;&#xA;     - Uwe Zell&#xD;&#xA;     - * None compatible change, Improve method mCatchException with additional  &#xD;&#xA;         in-out parameter&#xD;&#xA;       * Remove prefix from all methods and propertys&#xD;&#xA;         Add new method notify and removed&#xD;&#xA;" ObjectGUID="{8d9c6e38-fb79-48b9-b889-0e415e676bb3}" />
+  <Node Name="Project Settings" TypeGUID="{8753fe6f-4a22-4320-8103-e553c4fc8e04}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{6470a90f-b7cb-43ac-9ae5-94b2338b4573}" />
+  <Node Name="Project Information" TypeGUID="{085afe48-c5d8-4ea5-ab0d-b35701fa6009}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{11c0fc3a-9bcf-4dd8-ac38-efb93363e521}" />
+  <Node Name="Library Manager" TypeGUID="{adb5cb65-8e1d-4a00-b70a-375ea27582f3}" EmbeddedTypeGUIDs="" ObjectGUID="{a8201b9c-4c7e-4920-9785-0f6f9fac9d7a}" />
+  <Node Name="Library Information" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{c8706b13-1f28-4097-8c35-c12aa6824251}" />
+  <Node Name="Interface" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{57a4614a-925f-4498-93a2-c14fb1dd7ff9}" />
+  <Node Name="Documentation" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{41779d2e-df0a-4883-9003-2405bff68111}" />
+</Library>

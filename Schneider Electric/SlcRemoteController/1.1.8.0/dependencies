@@ -1,0 +1,9 @@
+#Standard
+#SystemConfiguration
+#SystemConfigurationItf
+#SystemInterface
+PD_GlobalDiagnostics, 1.2.0.0 (Schneider Electric)
+#CAA Memory
+PD_PacDriveLib, 1.3.6.0 (Schneider Electric)
+SercosCommunication, 1.0.0.0 (Schneider Electric)
+#SysFile

@@ -1,0 +1,9 @@
+#Standard
+#SystemInterface
+#SystemConfiguration
+#SystemConfigurationItf
+#CmpEventMgr
+#CmpAsyncMgr
+PD_GlobalDiagnostics, 1.2.0.0 (Schneider Electric)
+#CAA Mathematics
+ApplicationLogger, 1.0.6.0 (Schneider Electric)
