@@ -1,7 +1,0 @@
-PD_AxisModule, 1.5.2.0 (Schneider Electric)
-Sercos3PlcOpenMc, 1.3.0.0 (Schneider Electric)
-ApplicationLogger, 1.0.14.0 (Schneider Electric)
-#SystemConfigurationItf
-SIG Com HMI itf, * (SIG Combibloc Systems GmbH)
-SIG Standard exception itf, * (SIG Combibloc Systems GmbH)
-Standard, 3.5.9.0 (System)
