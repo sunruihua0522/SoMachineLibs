@@ -1,0 +1,17 @@
+#CAA FB Factory
+#CAA Types
+SIG Applikation Framework model, 1.0.0.0 (SIG Combibloc Systems GmbH)
+#System_VisuElems#2717eb6a-dd07-4c66-8d8d-cacebd7b18ae
+#System_VisuElemMeter#2717eb6a-dd07-4c66-8d8d-cacebd7b18ae
+#System_VisuElemsSpecialControls#2717eb6a-dd07-4c66-8d8d-cacebd7b18ae
+#System_VisuElemsWinControls#2717eb6a-dd07-4c66-8d8d-cacebd7b18ae
+#System_VisuElemTextEditor#2717eb6a-dd07-4c66-8d8d-cacebd7b18ae
+#System_VisuElemTrace#2717eb6a-dd07-4c66-8d8d-cacebd7b18ae
+#System_VisuNativeControl#2717eb6a-dd07-4c66-8d8d-cacebd7b18ae
+#System_VisuElemsAlarm#2717eb6a-dd07-4c66-8d8d-cacebd7b18ae
+#System_VisuElemCamDisplayer#2717eb6a-dd07-4c66-8d8d-cacebd7b18ae
+#System_VisuElem3DPath#2717eb6a-dd07-4c66-8d8d-cacebd7b18ae
+#System_VisuElemsDateTime#2717eb6a-dd07-4c66-8d8d-cacebd7b18ae
+#system_visuinputs#2717eb6a-dd07-4c66-8d8d-cacebd7b18ae
+SIG chain register itf, 1.0.2.0 (SIG Combibloc Systems GmbH)
+SIG Standard exception handling, 1.1.1.0 (SIG Combibloc Systems GmbH)

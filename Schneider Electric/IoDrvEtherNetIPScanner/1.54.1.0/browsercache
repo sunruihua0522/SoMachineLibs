@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library Name="IoDrvEtherNetIPScanner, 1.54.1.0 (Schneider Electric)">
+  <Node Name="EIPSlaveDiag" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{ed4ee558-b59d-4ce6-8226-d33bb5806cb1}" />
+  <Node Name="ST_SlaveDiag" TypeGUID="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{46dbaf56-e8d0-491d-860b-2173265a9969}" />
+  <Node Name="ICmpIoDrvEtherNetIPScannerDiag" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{2d66f166-0c59-4e52-b0fb-f55c67bd2163}" />
+  <Node Name="Datastructs" TypeGUID="{738bea1e-99bb-4f04-90bb-a7a567e74e3a}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{464596eb-3cca-44b4-8df7-00051bafda21}" />
+  <Node Name="ST_MasterDiag" TypeGUID="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{ff9992da-f088-4621-a0bd-19fa47c84e19}" />
+  <Node Name="GVL" TypeGUID="{ffbfa93a-b94d-45fc-a329-229860183b1d}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" IsHidden="true" ObjectGUID="{de699044-fdac-4be2-84cf-f18d807efe24}" />
+  <Node Name="MainMachine" TypeGUID="{d9e0ee7d-11e9-43db-812e-e077e20a2c21}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{aa3e3aa9-6d7f-42c9-8dd6-f927cebf0539}" />
+  <Node Name="ICmpIoDrvEtherNetIPScannerDiag" TypeGUID="{6654496c-404d-479a-aad2-8551054e5f1e}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" IsHidden="true" ObjectGUID="{4b0204fc-0fa0-430b-be9f-6e8a91a7a0d2}">
+    <Node Name="GetSlaveDiag" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{ebe4abbc-5e94-4d41-9b28-6844fdc2e5bc}" />
+    <Node Name="GetMasterDiag" TypeGUID="{f89f7675-27f1-46b3-8abb-b7da8e774ffd}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" ObjectGUID="{67e28f48-7524-4131-951a-21023f13b579}" />
+  </Node>
+  <Node Name="Project Information" TypeGUID="{085afe48-c5d8-4ea5-ab0d-b35701fa6009}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{11c0fc3a-9bcf-4dd8-ac38-efb93363e521}" />
+  <Node Name="IoDrvEtherNetIPScanner" TypeGUID="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{655ae916-ddc9-4d14-b8fe-de1c5eb702ba}">
+    <Node Name="RegisterForFatalCrash" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" IsHidden="true" ObjectGUID="{13f7119b-2fb3-4b1e-bdd2-78c2cb64a1ec}" />
+    <Node Name="GetSlaveDiag" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" IsHidden="true" ObjectGUID="{9a86e6d2-4e2a-48dc-90a7-b7ce0b25f0bf}" />
+    <Node Name="IoDrvUpdateConfiguration" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" IsHidden="true" ObjectGUID="{0705a4bf-ff14-4be4-a02f-ad9b4cce1a43}" />
+    <Node Name="GetMasterDiag" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" ObjectGUID="{ac004159-a4f2-4e6b-97b4-af02da43d37d}" />
+    <Node Name="RegisterForDiagQuit" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" IsHidden="true" ObjectGUID="{638cd1fc-46c2-4227-a993-7d86dc40c19c}" />
+    <Node Name="IoDrvStartBusCycle" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" IsHidden="true" ObjectGUID="{e820df05-b0be-4dc1-85d7-213a59a9b3d0}" />
+    <Node Name="EventCallback" TypeGUID="{f8a58466-d7f6-439f-bbb8-d4600e41d099}" EmbeddedTypeGUIDs="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94};{3b83b776-fb25-43b8-99f2-3c507c9143fc}" IsHidden="true" ObjectGUID="{30e112c6-4fe3-4fcb-80c3-3e85cb0917bd}" />
+  </Node>
+  <Node Name="Project Settings" TypeGUID="{8753fe6f-4a22-4320-8103-e553c4fc8e04}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{6470a90f-b7cb-43ac-9ae5-94b2338b4573}" />
+  <Node Name="Library Manager" TypeGUID="{adb5cb65-8e1d-4a00-b70a-375ea27582f3}" EmbeddedTypeGUIDs="" ObjectGUID="{a1fe03a1-57cb-420a-b465-3cbdc125ec5e}" />
+  <Node Name="MainMachine" TypeGUID="{8daf39e2-702f-44f0-9748-78a308713f47}" EmbeddedTypeGUIDs="" ProvidesLanguageModel="false" ObjectGUID="{6b72c79e-8941-47d7-b531-87ea41758d29}" />
+</Library>
